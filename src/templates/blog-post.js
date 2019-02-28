@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { DiscussionEmbed } from "disqus-react";
+import Disqus from 'disqus-react'
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -14,7 +14,8 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
     const disqusShortname = "ihwanid";
     const disqusConfig = {
-      identifier: post.id,
+      url: `https://www.ihwan.id${this.props.location.pathname}`,
+      identifier: `${this.props.location.pathname}`,
       title: post.frontmatter.title,
     };
 
@@ -67,7 +68,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-        <DiscussionEmbed shortname={ihwanid} config={disqusConfig} />
+        <Disqus.DiscussionEmbed shortname="ihwanid" config={disqusConfig} />
       </Layout>
     )
   }
