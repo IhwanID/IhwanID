@@ -31,11 +31,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Halo semuanya, saya <strong>{author}</strong> , seorang programmer asal Majalengka.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Saya suka ngetwit disini.
               </a>
             </p>
           </div>
