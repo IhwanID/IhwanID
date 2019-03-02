@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Disqus from 'disqus-react'
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -11,6 +12,12 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    const disqusShortname = "ihwanid";
+    const disqusConfig = {
+      url: `https://www.ihwan.id${this.props.location.pathname}`,
+      identifier: `${this.props.location.pathname}`,
+      title: post.frontmatter.title,
+    };
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -61,6 +68,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        <Disqus.DiscussionEmbed shortname="ihwanid" config={disqusConfig} />
       </Layout>
     )
   }

@@ -33,9 +33,9 @@ function Bio() {
             <p>
               Halo semuanya, saya <strong>{author}</strong> , seorang programmer asal Majalengka.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Saya suka ngetwit disini.
-              </a>
+              Saya suka ngetwit <a href={`https://twitter.com/${social.twitter}`}>
+                disini.
+              </a> dan juga sharing tutorial programming di <a href={`https://youtube.com/${social.youtube}`}>youtube</a>
             </p>
           </div>
         )
@@ -58,6 +58,7 @@ const bioQuery = graphql`
         author
         social {
           twitter
+          youtube
         }
       }
     }

@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://ihwan.id/`,
     social: {
       twitter: `ihwan_id`,
+      youtube: 'IhwanD',
     },
   },
   plugins: [
