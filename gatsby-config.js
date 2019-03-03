@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `My Blog`,
-    author: `Ihwan ID`,
-    description: `A Blog by Ihwan ID`,
+    title: `Sekadar Berbagi🙏🏻`,
+    author: `Ihwan`,
+    description: `Sekadar berbagi oleh Ihwan ID`,
     siteUrl: `https://ihwan.id/`,
     social: {
       twitter: `ihwan_id`,

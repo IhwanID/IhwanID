@@ -31,7 +31,7 @@ function Bio() {
               }}
             />
             <p>
-              Halo semuanya, saya <strong>{author}</strong> , seorang programmer asal Majalengka.
+              Halo semuanya, saya <strong>{author}</strong>. Seorang programmer asal Majalengka.
               {` `}
               Saya suka ngetwit <a href={`https://twitter.com/${social.twitter}`}>
                 disini.
