@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Sekadar Berbagi🙏🏻`,
+    title: `Sekadar Berbagi`,
     author: `Ihwan`,
     description: `Sekadar berbagi oleh Ihwan ID`,
     siteUrl: `https://ihwan.id/`,
