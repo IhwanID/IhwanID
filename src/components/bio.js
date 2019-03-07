@@ -34,7 +34,7 @@ function Bio() {
               Halo semuanya, saya <strong>{author}</strong>. Seorang programmer asal Majalengka.
               {` `}
               Saya suka ngetwit <a href={`https://twitter.com/${social.twitter}`}>
-                disini.
+                disini
               </a> dan juga sharing tutorial programming di <a href={`https://youtube.com/${social.youtube}`}>youtube</a>
             </p>
           </div>

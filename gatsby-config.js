@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Sekadar Berbagi`,
     author: `Ihwan`,
-    description: `Sekadar berbagi oleh Ihwan ID`,
+    description: `Sekadar berbagi oleh Ihwan ID. Seorang programmer asal Majalengka, senang sharing dan berbagi tutorial programming di Youtube`,
     siteUrl: `https://ihwan.id/`,
     social: {
       twitter: `ihwan_id`,
@@ -51,7 +51,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-125079658-2`,
       },
     },
     `gatsby-plugin-feed`,
