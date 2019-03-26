@@ -1,6 +1,6 @@
 ---
 title: Ujian kok nyontek, tuman!
-date: "2019-03-02T13:41:32.169Z"
+date: "2019-02-03T13:41:32.169Z"
 description: Kebiasaan mencontek di sekolah juga di kampus sudah sangat sering saya temui, dan inilah keresahan saya.
 ---
 
