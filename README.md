@@ -1,4 +1,3 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://ihwan.id">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
@@ -8,4 +7,6 @@
   Ihwan ID Blog
 </h1>
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+#My Post
+
+* majalengka dev
