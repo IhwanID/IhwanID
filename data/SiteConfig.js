@@ -1,6 +1,6 @@
 const config = {
   siteTitle: 'Ihwan ID',
-  siteTitleShort: 'Ihwan ID',
+  siteTitleShort: 'Ihwan',
   siteTitleAlt: 'Ihwan ID',
   siteLogo: '/logos/logo-48.png',
   siteUrl: 'https://www.ihwan.id',
@@ -27,11 +27,11 @@ const config = {
       link: '/me/',
     },
     {
-      name: 'Artikel',
+      name: 'Articles',
       link: '/blog/',
     },
     {
-      name: 'Kontak',
+      name: 'Contact',
       link: '/contact/',
     },
   ],
