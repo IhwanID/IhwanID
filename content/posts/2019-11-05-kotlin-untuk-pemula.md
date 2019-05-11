@@ -2,7 +2,7 @@
 date: 2019-01-28
 title: 'Kotlin Untuk Pemula'
 template: post
-thumbnail: '../thumbnails/gatsby.png'
+thumbnail: '../thumbnails/kotlin.png'
 slug: kotlin-untuk-pemula
 categories:
   - Kotlin

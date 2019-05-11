@@ -2,7 +2,7 @@
 date: 2019-01-28
 title: 'Benefit Belajar Programming'
 template: post
-thumbnail: '../thumbnails/gatsby.png'
+thumbnail: '../thumbnails/writing.png'
 slug: benefit-belajar-programming
 categories:
   - Personal

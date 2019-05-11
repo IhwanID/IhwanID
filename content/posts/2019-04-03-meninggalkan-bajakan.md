@@ -2,7 +2,7 @@
 date: 2018-03-04
 title: 'Mulai Meninggalkan Bajakan'
 template: post
-thumbnail: '../thumbnails/react.png'
+thumbnail: '../thumbnails/writing.png'
 slug: meninggalkan-bajakan
 categories:
   - Popular

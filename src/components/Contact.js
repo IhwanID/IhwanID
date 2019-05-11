@@ -5,16 +5,19 @@ export default class Contact extends Component {
   render() {
     return (
       <>
-        <h1>Stay in touch</h1>
-        <p>Like the posts you see here? Sign up to get notified about new content.</p>
+        <h1>Kontak Ihwan</h1>
+        <p>Kalau ada perlu dengan saya silahkan hubungi saya lewat kontak dibawah, boleh melalui email, sosial media ataupun telegram. 
+          Sebelum kirim pesan silahkan menulis salam dan tulis apa keperluannya. boleh bertanya seputar IT, sharing cerita dan pengalaman atau sekedar mengucapkan terimakasih.
+          Saya tidak membalas pesan yang tidak didahulukan dengan salam, atau sekedar menulis test, p atau hanya mengirim titik. 
+        </p>
         <p>You can find me around the web:</p>
         <ul>
           <li>
             <strong>Email</strong>: <a href="mailto:mynameisihwan@gmail.com">mynameisihwan@gmail.com</a>
           </li>
           <li>
-            <strong>GitHub</strong>:{' '}
-            <a target="_blank" href="https://github.com/ihwanid">
+            <strong>Telegram</strong>:{' '}
+            <a target="_blank" href="https://t.me/ihwanid">
               ihwanid
             </a>
           </li>
