@@ -69,6 +69,7 @@ export default class SEO extends Component {
         }
       )
     }
+    
     return (
       <Helmet>
         <meta name="description" content={description} />
