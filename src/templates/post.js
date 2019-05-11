@@ -15,7 +15,7 @@ export default class PostTemplate extends Component {
     const { slug } = this.props.pageContext
     const postNode = this.props.data.markdownRemark
     const post = postNode.frontmatter
-    let thumbnail
+    let thumbnail 
 
     if (!post.id) {
       post.id = slug
