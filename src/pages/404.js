@@ -1,32 +1,52 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React, { Component } from 'react'
+import ThemeContext from '../context/ThemeContext'
+import Helmet from 'react-helmet'
+import Layout from '../layout'
+import SEO from '../components/SEO'
+import config from '../../data/SiteConfig'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+export default class NotFoundPage extends Component {
+  static contextType = ThemeContext
 
-class NotFoundPage extends React.Component {
+  componentDidMount() {
+    const { setNotFound } = this.context
+
+    setNotFound()
+  }
+
+  componentWillUnmount() {
+    const { setFound } = this.context
+
+    setFound()
+  }
+
   render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="404: Not Found" />
-        <h1>Not Found</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <Layout>
+        <Helmet title={`Page not found – ${config.siteTitle}`} />
+        <SEO />
+        <div className="container">
+          <div className="text-center">
+            <h1>404</h1>
+          </div>
+          <p>
+            A fatal exception 0E has occurred at <span className="ihwan">0x11356e6961</span> in 404:
+            page not found.
+          </p>
+          <div className="list">
+            <p>
+              <span className="bullet">*</span> Click any link to terminate the current application.
+            </p>
+            <p>
+              <span className="bullet">*</span> Press ALT + F4 again to restart your browser. You
+              will lose any unsaved information in all tabs.
+            </p>
+          </div>
+          <p className="text-right">
+            Click any link to continue<span className="blink">&#9608;</span>
+          </p>
+        </div>
       </Layout>
     )
   }
 }
-
-export default NotFoundPage
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
