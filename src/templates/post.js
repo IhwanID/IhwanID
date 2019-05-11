@@ -15,7 +15,7 @@ export default class PostTemplate extends Component {
     const { slug } = this.props.pageContext
     const postNode = this.props.data.markdownRemark
     const post = postNode.frontmatter
-    let thumbnail 
+    let thumbnail
 
     if (!post.id) {
       post.id = slug
@@ -34,7 +34,7 @@ export default class PostTemplate extends Component {
     const twitterUrl = `https://twitter.com/search?q=${config.siteUrl}/${post.slug}/`
     const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(post.title)}&url=${
       config.siteUrl
-    }/${post.slug}/&via=ihwanid`
+    }/${post.slug}/&via=taniarascia`
 
     return (
       <Layout>
