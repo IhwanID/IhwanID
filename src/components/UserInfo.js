@@ -9,7 +9,7 @@ export default class UserInfo extends Component {
         <div className="container note-container">
           <div className="flex-author">
             <p>
-             I'm Ihwan, a full-stack software developer specializing in modern JavaScript. I make
+             I'm Ihwan, a mobile software developer specializing in Android and iOS . I make
               open source coding projects and write free, quality articles and tutorials that help
               thousands of people daily. No ads, no sponsored posts, no bullshit.
             </p>
@@ -17,13 +17,6 @@ export default class UserInfo extends Component {
               Buy me a coffee 
               {' '}
             <img src={coffee} className="coffee-icon" />
-            </a>
-            <a
-              className="patreon-button"
-              href="https://www.patreon.com/ihwanid"
-              target="_blank"
-            >
-              Patreon
             </a>
           </div>
           <div className="flex-avatar">

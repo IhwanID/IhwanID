@@ -30,7 +30,6 @@ export default class PostTemplate extends Component {
 
     const date = formatDate(post.date)
     const githubLink = editOnGithub(post)
-    const twitterUrl = `https://twitter.com/search?q=${config.siteUrl}/${post.slug}/`
     const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(post.title)}&url=${
       config.siteUrl
     }/${post.slug}/&via=ihwan_id`
@@ -65,10 +64,6 @@ export default class PostTemplate extends Component {
             {' '}
             <a className="button twitter-button" href={twitterShare} target="_blank">
               Share on Twitter
-            </a>
-            {' '}
-            <a className="button twitter-button" href={twitterUrl} target="_blank">
-              Discuss on Twitter
             </a>
           </div>
         </article>
