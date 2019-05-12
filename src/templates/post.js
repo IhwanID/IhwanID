@@ -5,7 +5,6 @@ import Img from 'gatsby-image'
 import Layout from '../layout'
 import UserInfo from '../components/UserInfo'
 import PostTags from '../components/PostTags'
-import NewsletterForm from '../components/NewsletterForm'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
@@ -34,7 +33,7 @@ export default class PostTemplate extends Component {
     const twitterUrl = `https://twitter.com/search?q=${config.siteUrl}/${post.slug}/`
     const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(post.title)}&url=${
       config.siteUrl
-    }/${post.slug}/&via=taniarascia`
+    }/${post.slug}/&via=ihwan_id`
 
     return (
       <Layout>
@@ -72,9 +71,6 @@ export default class PostTemplate extends Component {
               Discuss on Twitter
             </a>
           </div>
-          <h3>Stay in touch</h3>
-          <p>Like the posts you see here? Sign up to get notified about new ones.</p>
-          <NewsletterForm />
         </article>
         <UserInfo config={config} />
       </Layout>

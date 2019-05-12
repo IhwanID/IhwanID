@@ -5,7 +5,6 @@ import Layout from '../layout'
 import PostListing from '../components/PostListing'
 import ProjectListing from '../components/ProjectListing'
 import SimpleListing from '../components/SimpleListing'
-import NewsletterForm from '../components/NewsletterForm'
 import GitHubButton from 'react-github-btn'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
@@ -121,14 +120,6 @@ export default class Index extends Component {
             </blockquote>
           </section>
  */}
-          {/* <section className="section">
-            <h2>Newsletter</h2>
-            <p>
-              I write what I know and I share it with the world. Sign up to get
-              notified about new content!
-            </p>
-            <NewsletterForm />
-          </section> */}
         </div>
       </Layout>
     )
