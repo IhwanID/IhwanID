@@ -20,7 +20,7 @@ const config = {
   userLocation: 'Majalengka, ID',
   userAvatar: 'https://api.adorable.io/avatars/150/test.png',
   userDescription:
-    'I build open source projects and write the missing instruction manuals of the web.',
+    'I build an Android / iOS projects and write the missing instruction manuals of the web.',
   menuLinks: [
     {
       name: 'Me',
