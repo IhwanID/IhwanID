@@ -31,6 +31,10 @@ const config = {
       link: '/blog/',
     },
     {
+      name: 'Now',
+      link: '/now/',
+    },
+    {
       name: 'Contact',
       link: '/contact/',
     },
