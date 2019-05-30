@@ -5,7 +5,7 @@ template: post
 thumbnail: '../thumbnails/writing.png'
 slug: caraku-sharing-knowledge
 categories:
-  - sharing
+  - Sharing
 tags:
   - sharing
 ---
