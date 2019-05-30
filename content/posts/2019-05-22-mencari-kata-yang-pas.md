@@ -1,6 +1,6 @@
 ---
 date: 2019-05-22
-title: 'Mencar kata yang pas untuk blogging'
+title: 'Mencari kata yang pas untuk blogging'
 template: post
 thumbnail: '../thumbnails/writing.png'
 slug: mencari-kata-yang-pas
