@@ -1,5 +1,5 @@
 ---
-date: 2019-05-22
+date: 2019-05-30
 title: 'Don't hardcode value - Android Studio Tips'
 template: post
 thumbnail: '../thumbnails/studio.png'
