@@ -15,3 +15,9 @@ membuat authentication scafollding
 ```jsx
 php artisan make:auth
 ```
+
+migrate dan seeder
+
+```jsx
+php artisan migrate:fresh --seed
+```
