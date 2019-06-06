@@ -47,9 +47,6 @@ export default class Navigation extends Component {
                 {link.name}
               </Link>
             ))}
-            <a target="_blank" href="https://github.com/ihwanid">
-              GitHub
-            </a>
             <div className="cta">
               <button className="dark-switcher" onClick={theme.toggleDark}>
                 {theme.dark ? (
