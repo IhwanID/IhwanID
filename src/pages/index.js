@@ -3,14 +3,9 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
-import ProjectListing from '../components/ProjectListing'
-import SimpleListing from '../components/SimpleListing'
 import GitHubButton from 'react-github-btn'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
-import projects from '../../data/projects'
-import speaking from '../../data/speaking'
-import podcasts from '../../data/podcasts'
 
 export default class Index extends Component {
   render() {
@@ -74,52 +69,6 @@ export default class Index extends Component {
             <h2>Most Popular</h2>
             <PostListing simple postEdges={popularPostEdges} />
           </section>
-
-          {/* <section className="section">
-            <h2>Open Source Projects</h2>
-            <ProjectListing projects={projects} />
-          </section> */}
-
-          {/* <section className="section">
-            <h2>Podcasts</h2>
-            <SimpleListing simple data={podcasts} />
-          </section> */}
-
-          {/* <section className="section">
-            <h2>Speaking</h2>
-            <SimpleListing simple data={speaking} />
-          </section> */}
-
-          {/* <section className="section">
-            <h2>Other People's Opinions</h2>
-            <blockquote className="quotation">
-              <p>
-                “You write extremely clear, concise tutorials that have the best
-                ratio of learning to bullshit that I've encountered so far. It's
-                no exaggeration to say that I wouldn't currently have a job in
-                development without this site. So thanks for ruining my life,
-                Tania.”
-              </p>
-              <cite>— Craig</cite>
-            </blockquote>
-            <blockquote className="quotation">
-              <p>
-                “You taught me more than any class could have, and it took me a
-                fraction of the time because of how clearly you write and
-                teach.”
-              </p>
-              <cite>— Evan</cite>
-            </blockquote>
-            <blockquote className="quotation">
-              <p>
-                “Not to get too dramatic, but I find your site to be an
-                unspeakably beautiful lifeboat in an overwhelming sea of
-                technical jargon and shite.”
-              </p>
-              <cite>— Lori</cite>
-            </blockquote>
-          </section>
- */}
         </div>
       </Layout>
     )
