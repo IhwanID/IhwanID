@@ -4,20 +4,17 @@ slug: me
 template: page
 ---
 
-I’m Ihwan,  software developer, technical writer, and learner from Majalengka. I currently work as a mobile developer for [IndoSystem](https://www.indosystem.com/), and I've also written for [Medium](https://www.medium.com/@IhwanID).
+Halo saya Ihwan, seorang  software developer, penulis dan pembelajar abadi asal Majalengka. Saya senang menulis dan membuat video, beberapa portofolio tulisan dan video saya bisa dilihat di blog ini dan channel youtube saya. 
 
-I started this website as a place to document everything I learned while going through a career change. I [learn in public](/learn) and write about everything I know. The free resources I create help thousands of people successfully become developers, too! 
-
-
+Awalnya saya membuat blog ini untuk mendokumentasikan apapun yang sudah saya pelajari dan berbagi pengalaman yang sudah saya alami. Semoga blog ini bisa berguna dan membantu para pembaca sekalian. 
 
 ![Me](../images/me.jpg)
 
-### Around the web
+### Portofolio
 
-- Email: [mynameisihwan@gmail.com](mailto:mynameisihwan@gmail.com)
 - GitHub: [IhwanID](https://github.com/IhwanID)
-- Twitter: [Ihwan_ID](https://twitter.com/ihwan_id)
-- LinkedIn: [ihwanid](https://linkedin.com/in/ihwanid)
+- Youtube: [IhwanD](https://youtube.com/ihwand)
+- Medium: [ihwanid](https://medium.com/@ihwanid)
 
 
 ## Currently Using
@@ -25,3 +22,4 @@ I started this website as a place to document everything I learned while going t
 - **Computer:** MacBook Pro 2012, Acer E5 475G
 - **Hosting:** [Netlify](https://netlify.com)
 - **Editor:** [Visual Studio Code](https://code.visualstudio.com/),[Android Studio](https://developer.android.com/studio)
+- **Programming Language:** Java, Kotlin, Dart, PHP
