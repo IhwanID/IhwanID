@@ -74,7 +74,7 @@ export default class SEO extends Component {
       <Helmet>
         <meta name="description" content={description} />
         <meta name="image" content={image} />
-
+        <meta name="google-site-verification" content="9C3Z0njl4y9Jvhy6b4KCY1p6n9Q1UIyqjRMJeHp27O4" />
         <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
 
         <meta property="og:url" content={postSEO ? postURL : blogURL} />
