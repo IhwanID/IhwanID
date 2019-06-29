@@ -5,7 +5,7 @@ template: post
 thumbnail: '../thumbnails/writing.png'
 slug: mencari-kata-yang-pas
 categories:
-  - Sharing
+  - Personal
 tags:
   - sharing
 ---

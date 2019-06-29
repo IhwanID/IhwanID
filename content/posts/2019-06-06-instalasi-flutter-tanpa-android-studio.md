@@ -5,7 +5,7 @@ template: post
 thumbnail: '../thumbnails/kotlin.png'
 slug: instal-flutter-tanpa-android-studio
 categories:
-  - Flutter
+  - Mobile
 tags:
   - flutter
 ---

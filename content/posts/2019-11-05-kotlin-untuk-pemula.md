@@ -5,7 +5,7 @@ template: post
 thumbnail: '../thumbnails/kotlin.png'
 slug: kotlin-untuk-pemula
 categories:
-  - Kotlin
+  - Mobile
 tags:
   - kotlin
 ---
