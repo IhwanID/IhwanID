@@ -1,31 +1,41 @@
 ---
-title: Learning in Public
+title: Belajar Sambil Berbagi
 slug: learn
 template: page
 ---
 
 Hi, ini adalah daftar belajarku yang nantinya akan ku share lagi. 
 
-## To Learn:
+## Yang akan ku pelajari:
 
 #### Android Development
 
 - [ ] RxJava
   - [ ] Single
   - [ ] Flowable
-    - [ ] Completable
-- [ ] MVVM
+  - [ ] Completable
+- [ ] Android Architecture Component
+  - [x] Data Binding
+  - [ ] Live Data
+  - [ ] ViewModel
+  - [ ] WorkManager
+  - [ ] CameraX
+  - [ ] Lifecycle
+  - [ ] Navigation
+  - [ ] Paging
+  - [ ] Room
 
 #### iOS Development
 
 - [ ] Xcode
   - [ ] Swift 5
   - [ ] Basic Programming iOS
+  - [ ] Swift UI
 
 
-## Learned:
+## Telah Dipelajari:
 
-This is not everything I know, but a good amount of the things I've documented since I started this site.
+Tidak banyak yang sudah kupelajari,namun semoga apa yang aku share bisa bermanfaat untuk teman-teman.
 
 ### Android Developnet
 

@@ -1,5 +1,5 @@
 ---
-title: What I'm Doing Now
+title: Apa yang saya kerjakan sekarang
 slug: now
 template: page
 ---
@@ -19,4 +19,4 @@ Belajar :
 Sedang belajar serta mengulik tentang arsitektur komponen android dan beberapa library pendukung seperti rxjava (reactive programming) dan juga dagger (dependency injection)
 
 Hobi :
-Membuat video dan sharing seputar IT, kalau ada yang mau undang aku untuk jadi pembicara atau sharing seputar IT, silahkan kirim email ya. 
+Membuat video dan sharing seputar IT, kalau ada yang mau undang aku untuk jadi pembicara atau sharing seputar IT, silahkan kirim email ya kontak ku [disini](https://ihwan.id/contact). 
