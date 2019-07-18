@@ -40,37 +40,53 @@ Berikut langkah-langkahnya.
 
 5. sampai sini kita harus menge-set Environment Variable dan Path, untuk windows silahkan buka command prompt dan ketikan command perbaris.
 
+```jsx
 setx JAVA_HOME “C:\Android\openjdk”
 setx ANDROID_HOME “C:\Android”
 setx ANDROID_SDK_ROOT “C:\Android\tools”
 setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin”
+```
+
 Untuk OS lainnya silahkan menyesuaikan.
 
 6. Buka terminal (Command Prompt) di C:/Android/tools/bin lalu ketikan beberapa perintah berikut.
 
+```jsx
 sdkmanager “system-images;android-28;default;x86_64”
 sdkmanager “platform-tools”
 sdkmanager “build-tools;28.0.3”
 sdkmanager “platforms;android-28”
+```
+
 untuk pengguna Mac silahkan jalankan dengan single qoute (petik satu) seperti berikut.
 
-
+```jsx
 sdkmanager ‘system-images;android-28;default;x86_64’
-
+```
 untuk SDK sendiri, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command :
 
+```jsx
 sdkmanager —-update
+```
+
 Edited : Saat tulisan ini dibuat, Flutter memerlukan SDK terbaru yaitu Pie (Android 28), namun saat ini sudah memerlukan SDK android-Q. silahkan teman-teman ganti command yang berisi android-28 menjadi android-Q.
 
 Jangan lupa untuk menjalankan syntax accept licenses nya
 
+```jsx
 flutter doctor --android-licenses
+```
+
 Dokumentasinya ada disini
 
 7. Selanjutnya install Visual Studio Code dan ekstension flutter serta dart nya.
 
 8. Jika semuanya sudah selesai silahkan buka terminal (Command Prompt) di Android/flutter atau untuk pengguna windows bisa double klik di C:\Android\Flutter\flutter_console.bat dan jalankan perintah flutter doctor, maka hasilnya seperti gambar berikut.
 
+![Flutter Doctor](../images/flutter-doctor.png)
+
 9. Step terakhir adalah buat project di VsCode dengan klik F1 dan mengetikan Flutter: New Project setelah project selesai di load, klik F5 untuk mendeploy ke android device teman-teman. dan hasilnya seperti gambar dibawah ini
+
+![Flutter Done](../images/flutter-done.jpeg)
 
 Nah, itu dia cara yang agak ribet namun dapat membantu teman teman yang memiliki device dengan spek dan storage yang terbatas. sekian dulu sharing dari saya, apabila da kesulitan bisa japri lewat telegram saya. Terimakasih dan sampai jumpa .
