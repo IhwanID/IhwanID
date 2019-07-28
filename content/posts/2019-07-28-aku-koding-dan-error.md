@@ -1,7 +1,13 @@
 ---
-title: Cerita Tentang Aku, Koding dan Error
-date: "2019-03-21T23:00:32.169Z"
-description: Dari pertama belajar koding sampai sekarang aku masih merasakan hal yang sama dengan error errorku.
+date: 2019-07-28
+title: 'Aku Koding dan Error'
+template: post
+thumbnail: '../thumbnails/kotlin.png'
+slug: aku-koding-dan-error
+categories:
+  - Mobile
+tags:
+  - flutter
 ---
 
 Sudah hampir dua tahun lebih aku belajar koding dan benar benar masuk ke dunia programming ini. bisa dikatakan hidupku sangat bergantung pada programming jadi tidak ada salahnya kalau aku cerita sedikit tentang pengalamanku ini. 
@@ -17,5 +23,3 @@ sampai sekarang aku masih merasakan hal yang sama saat bertemu error pertamaku, 
 dan juga perasaan kita akan sangat bahagia jika pesan error nya berubah walaupun belum fix. setidaknya kita telah melakukan perjuangan untuk menyelesaikan error itu. dan disinilah peran stackoverflow, google dan komunitas support sangat membantu. 
 
 >nanti kulanjutin lagi ceritanya. . . 
-
-
