@@ -1,7 +1,16 @@
 ---
-title: Beberapa cara mengembangkan aplikasi android
-date: "2019-03-15T09:28:32.169Z"
-description: Ada banyak cara mengembangkan aplikasi android, mulai dari drag and drop sampai membuat kode kode yang rumit.
+date: 2019-03-19
+title: 'Macam macam investasi untuk masa depan'
+template: post
+thumbnail: '../thumbnails/gatsby.png'
+slug: blogging-dengan-gatsby-js
+categories:
+  - Web
+  - Popular
+tags:
+  - javascript
+  - react
+  - gatsby
 ---
 
 Mengembangkan Aplikasi Android saat ini sudah bukan hal yang sulit lagi untuk pemula, banyak tutorial dan referensi bertebaran di internet bahkan kursus offline pun sudah lumayan banyak. 
@@ -17,5 +26,3 @@ Saya jelaskan sedikit,
 
 
 >nanti kulanjutin lagi ceritanya. . . 
-
-
