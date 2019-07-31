@@ -2,12 +2,12 @@
 date: 2019-07-28
 title: 'Aku Koding dan Error'
 template: post
-thumbnail: '../thumbnails/kotlin.png'
+thumbnail: '../thumbnails/writing.png'
 slug: aku-koding-dan-error
 categories:
-  - Mobile
+  - Personal
 tags:
-  - flutter
+  - sharing
 ---
 
 Sudah hampir dua tahun lebih aku belajar koding dan benar benar masuk ke dunia programming ini. bisa dikatakan hidupku sangat bergantung pada programming jadi tidak ada salahnya kalau aku cerita sedikit tentang pengalamanku ini. 

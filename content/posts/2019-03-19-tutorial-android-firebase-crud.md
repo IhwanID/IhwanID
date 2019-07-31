@@ -2,15 +2,13 @@
 date: 2019-03-19
 title: 'Tutorial Android Firebase CRUD'
 template: post
-thumbnail: '../thumbnails/gatsby.png'
-slug: blogging-dengan-gatsby-js
+thumbnail: '../thumbnails/studio.png'
+slug: android-firebase-crud
 categories:
-  - Web
-  - Popular
+  - Mobile
 tags:
-  - javascript
-  - react
-  - gatsby
+  - android
+  - firebase
 ---
 
 Pengembangan android saat ini sudah sangat mudah dengan berbagai tools yang sudah disediakan. kalau biasanya teman teman perlu membuat database menggunakan mysql lalu membuat program php nya untuk mengkonversikan ke json response maka teman teman akan menemukan cara yang lebih mudah dan tentu hemat biaya. 

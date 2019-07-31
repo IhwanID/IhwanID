@@ -1,16 +1,14 @@
 ---
-date: 2019-03-19
-title: 'Macam macam investasi untuk masa depan'
+date: 2019-03-15
+title: 'Cara Membuat Aplikasi Android'
 template: post
-thumbnail: '../thumbnails/gatsby.png'
-slug: blogging-dengan-gatsby-js
+thumbnail: '../thumbnails/studio.png'
+slug: cara-membuat-aplikasi-android
 categories:
-  - Web
+  - Mobile
   - Popular
 tags:
-  - javascript
-  - react
-  - gatsby
+  - android
 ---
 
 Mengembangkan Aplikasi Android saat ini sudah bukan hal yang sulit lagi untuk pemula, banyak tutorial dan referensi bertebaran di internet bahkan kursus offline pun sudah lumayan banyak. 

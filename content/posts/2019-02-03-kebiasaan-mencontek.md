@@ -1,16 +1,14 @@
 ---
 date: 2019-03-19
-title: 'Macam macam investasi untuk masa depan'
+title: 'Kebiasaan Mencontek'
 template: post
-thumbnail: '../thumbnails/gatsby.png'
-slug: blogging-dengan-gatsby-js
+thumbnail: '../thumbnails/writing.png'
+slug: mencontek
 categories:
-  - Web
-  - Popular
+  - Personal
 tags:
-  - javascript
-  - react
-  - gatsby
+  - mencontek
+  - cheating
 ---
 Kalau teman-teman pernah bersekolah serta kuliah mungkin teman-teman adalah orang yang suka mencontek ketika ujian atau malah menjadi orang yang resah ketika melihat orang lain mencontek. 
 

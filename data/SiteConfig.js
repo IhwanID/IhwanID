@@ -3,13 +3,12 @@ const config = {
   siteTitleShort: 'Ihwan',
   siteTitleAlt: 'Ihwan ID',
   siteLogo: '/logos/logo.png',
-  siteUrl: 'https://www.ihwan.id',
+  siteUrl: 'https://ihwan.id',
   repo: 'https://github.com/ihwanid/ihwan.id',
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
-  siteDescription:
-    'Ihwan adalah seorang mobile developer untuk Android dan iOS asal Majalengka. Senang menulis dan membuat video seputar IT',
+  siteDescription: 'Hi saya Ihwan, seorang Mobile Developer asal Majalengka. Senang menulis dan membuat video seputar IT',
   siteRss: '/rss.xml',
   googleAnalyticsID: 'UA-125079658-2',
   disqusShortname: 'ihwanid',
@@ -19,8 +18,7 @@ const config = {
   userTwitter: 'ihwan_id',
   userLocation: 'Majalengka, ID',
   userAvatar: 'https://api.adorable.io/avatars/150/test.png',
-  userDescription:
-    'I build an Android / iOS projects and write the missing instruction manuals of the web.',
+  userDescription: 'Hi saya Ihwan, seorang Mobile Developer asal Majalengka. Senang menulis dan membuat video seputar IT.',
   menuLinks: [
     {
       name: 'Me',
