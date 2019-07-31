@@ -8,7 +8,7 @@ categories:
   - Personal
 tags:
   - investasi
-  -reksadana
+  - reksadana
 ---
 
 Investasi bagiku adalah sesuatu yang harus. tapi investasi yang dimaksud bukan hanya materi, melainkan lebih dari itu. boleh boleh saja investasi emas, saham atau reksadana. namun ada yang lebih penting daripada itu menurutku, yaitu investasi kepada diri sendiri. 
