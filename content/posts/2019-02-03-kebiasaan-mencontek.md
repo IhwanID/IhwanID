@@ -18,4 +18,5 @@ Mungkin mereka terpaksa mencontek karena soalnya susah atau mungkin kemudahan un
 
 Tapi ada hal yang jauh lebih baik dilakukan daripada melakukan hal itu, yaitu menjawab soal tersebut dengan sesuai kemampuan. 
 
->nanti kulanjutin lagi ceritanya. . . 
+Bukan berarti ketika penulis membuat artikel ini, penulis tidak pernah mencontek, tapi kita coba belajar suatu hal dari peristiwa ini. yang penulis tahu "Dunia Kerja" itu bebas, kita memiliki leluasa untuk semua hal yang mau kita pelajari dan kita lakukan. Tidak seperti dunia sekolah dan kuliah yang kaku dan terlihat obsolete. Di dunia kerja ketika kita bingung, mentok dan kehilangan inspirasi, kita bisa membuka internet untuk mencari sumber inspirasi. semudah itu. 
+
