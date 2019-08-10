@@ -6,7 +6,7 @@ import PostListing from '../components/PostListing'
 import GitHubButton from 'react-github-btn'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
-import photo from '../../content/images/me.jpg'
+import photo from '../../content/images/me-lite.png'
 
 export default class Index extends Component {
   render() {
