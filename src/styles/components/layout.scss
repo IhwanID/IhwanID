@@ -834,6 +834,19 @@ blockquote {
   }
 }
 
+.lite-icon {
+  display: none;
+  float: right;
+  max-width: 150px;
+  margin-top: 3rem;
+  margin-left: 3.5rem;
+  margin-bottom: 0;
+
+  @include small-breakpoint {
+    display: block;
+  }
+}
+
 .footer {
   height: 55px;
   color: $light-font-color;

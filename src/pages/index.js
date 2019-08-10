@@ -26,7 +26,7 @@ export default class Index extends Component {
             >
               <img
                 src={photo}
-                className="ihwan-id-icon"
+                className="lite-icon"
                 title="Hi i'm Ihwan"
                 alt="Hi i'm Ihwan"
               />
