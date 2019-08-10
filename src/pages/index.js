@@ -6,6 +6,7 @@ import PostListing from '../components/PostListing'
 import GitHubButton from 'react-github-btn'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
+import photo from '../../content/images/me.jpg'
 
 export default class Index extends Component {
   render() {
@@ -19,19 +20,26 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <h1>Hi, Saya Ihwan</h1>
+            <a
+              href="https://youtube.com/ihwand"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={photo}
+                className="ihwan-id-icon"
+                title="Hi i'm Ihwan"
+                alt="Hi i'm Ihwan"
+              />
+            </a>
             <div className="lead-grid">
               <p>
-                Saya seorang mobile developer untuk Android dan iOS, saya suka menulis dan juga sharing seputar IT.
-              </p>
-              <p>
-               Saya suka belajar hal baru dan{' '}
-                <a href="/learn">membagikannya lewat tulisan</a> serta melalui video di {' '}
-                <a
+                Saya seorang mobile developer, saya suka menulis dan juga sharing seputar IT di <a
                   href="https://youtube.com/ihwand"
                   target="blank"
                 >
-                 Kanal Youtube Ihwan
-                </a>
+                 Youtube
+                </a>.
               </p>
             </div>
             <div className="social-buttons">
