@@ -19,7 +19,6 @@ export default class Index extends Component {
         <SEO />
         <div className="container">
           <div className="lead">
-            <h1>Hi, Saya Ihwan</h1>
             <a
               href="https://youtube.com/ihwand"
               target="_blank"
@@ -32,8 +31,8 @@ export default class Index extends Component {
                 alt="Hi i'm Ihwan"
               />
             </a>
-            <div className="lead-grid">
-              <p>
+            <h1>Hi, Saya Ihwan</h1>
+            <p>
                 Saya seorang mobile developer, saya suka menulis dan juga sharing seputar IT di <a
                   href="https://youtube.com/ihwand"
                   target="blank"
@@ -41,7 +40,6 @@ export default class Index extends Component {
                  Youtube
                 </a>.
               </p>
-            </div>
             <div className="social-buttons">
               <div>
                 <a
