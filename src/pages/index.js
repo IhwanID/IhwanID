@@ -33,12 +33,12 @@ export default class Index extends Component {
             </a>
             <h1>Hi, Saya Ihwan</h1>
             <p>
-                Saya seorang mobile developer, saya suka menulis dan juga sharing seputar IT di <a
+                Saya seorang mobile developer, senang menulis dan juga sharing seputar IT di <a
                   href="https://youtube.com/ihwand"
                   target="blank"
                 >
                  Youtube
-                </a>.
+                </a>. Di sini kamu bisa membaca beberapa tulisanku. Semoga bermanfaat.
               </p>
             <div className="social-buttons">
               <div>
