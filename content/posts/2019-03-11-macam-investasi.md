@@ -1,5 +1,5 @@
 ---
-date: 2019-03-19
+date: 2019-03-11
 title: 'Macam macam investasi untuk masa depan'
 template: post
 thumbnail: '../thumbnails/writing.png'

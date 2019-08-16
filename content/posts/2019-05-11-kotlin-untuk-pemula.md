@@ -1,5 +1,5 @@
 ---
-date: 2019-01-28
+date: 2019-05-11
 title: 'Kotlin Untuk Pemula'
 template: post
 thumbnail: '../thumbnails/kotlin.png'

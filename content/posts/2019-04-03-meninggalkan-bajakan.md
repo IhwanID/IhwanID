@@ -1,5 +1,5 @@
 ---
-date: 2018-03-04
+date: 2018-04-03
 title: 'Mulai Meninggalkan Bajakan'
 template: post
 thumbnail: '../thumbnails/writing.png'
