@@ -11,19 +11,19 @@ Hi, ini adalah daftar belajarku yang nantinya akan ku share lagi.
 #### Android Development
 
 - [ ] RxJava
-  - [ ] Single
+  - [x] Single
   - [ ] Flowable
   - [ ] Completable
 - [ ] Android Architecture Component
   - [x] Data Binding
-  - [ ] Live Data
-  - [ ] ViewModel
-  - [ ] WorkManager
-  - [ ] CameraX
-  - [ ] Lifecycle
-  - [ ] Navigation
+  - [x] Live Data
+  - [x] ViewModel
+  - [x] WorkManager
+  - [x] CameraX
+  - [x] Lifecycle
+  - [x] Navigation
   - [ ] Paging
-  - [ ] Room
+  - [x] Room
 
 #### iOS Development
 
