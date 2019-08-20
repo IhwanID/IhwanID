@@ -15,4 +15,4 @@ Pengembangan android saat ini sudah sangat mudah dengan berbagai tools yang suda
 
 kita tidak perlu sewa hosting, beli domain dan bikin program tambahan. firebase sudah menjawab semuanya. jadi markimul, mari kita mulai. 
 
->nanti kulanjutin lagi ceritanya. . . 
+To be to continued. . .
