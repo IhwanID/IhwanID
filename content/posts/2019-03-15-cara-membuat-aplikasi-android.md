@@ -6,7 +6,6 @@ thumbnail: '../thumbnails/studio.png'
 slug: cara-membuat-aplikasi-android
 categories:
   - Mobile
-  - Popular
 tags:
   - android
 ---
