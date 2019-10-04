@@ -17,6 +17,7 @@ Okey langsung saja, apa itu Android Jetpack? Singkatnya kita bisa sebut bahwa An
 ![Jetpack Donut](../images/jetpack-donut.png)
 
 Dengan menggunakan Jetpack kita bisa meng-eliminasi boilerplate kode ditambah lagi jika kita menggunakan kotlin sebagai bahasa pemrograman untuk Android maka akan semakin rapih kode-nya dan mudah untuk di-maintain. Tidak lupa kita juga akan mendapatkan benedit seperti best practices dalam pengembangan aplikasi android dimana tugas yang biasanya sangat sulit untuk dibuat seperti membuat database local akan lebih mudah jika kita menggunakan library dari jetpack. Berikut beberapa library yang ada dimasing-masing komponen : 
+
 1. Foundation
 - AppCompat
 - Android KTX
