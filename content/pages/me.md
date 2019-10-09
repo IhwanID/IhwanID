@@ -4,7 +4,7 @@ slug: me
 template: page
 ---
 
-Halo saya Ihwan, seorang  Mobile Developer, penulis dan pembelajar sepanjang masa asal Majalengka. Saya senang menulis dan membuat video, beberapa portofolio tulisan dan video saya bisa dilihat di blog ini dan channel youtube saya. 
+Halo saya Ihwan, Associate Android Developer, penulis dan pembelajar sepanjang masa asal Majalengka. Saya senang menulis dan membuat video, beberapa portofolio tulisan dan video saya bisa dilihat di blog ini dan channel youtube saya. 
 
 Awalnya saya membuat blog ini untuk mendokumentasikan apapun yang sudah saya pelajari dan berbagi pengalaman yang sudah saya alami. Semoga blog ini bisa berguna dan membantu para pembaca sekalian. 
 

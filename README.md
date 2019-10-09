@@ -17,7 +17,7 @@ Navigate to `localhost:8000`.
 
 ## Authors
 
-* **Ihwan Dede** - *Mobile Developer* - [IhwanID](https://github.com/ihwanid)
+* **Ihwan Dede** - *Associate Android Developer* - [IhwanID](https://github.com/ihwanid)
 
 ## License
 

@@ -15,7 +15,7 @@ export default class Index extends Component {
     
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – Mobile Developer`} />
+        <Helmet title={`${config.siteTitle} – Associate Android Developer`} />
         <SEO />
         <div className="container">
           <div className="lead">
@@ -33,7 +33,7 @@ export default class Index extends Component {
             </a>
             <h1>Hi, Saya Ihwan</h1>
             <p>
-                Saya seorang mobile developer, senang menulis dan juga sharing seputar IT di <a
+                Saya seorang Associate Android Developer, senang menulis dan juga sharing seputar IT di <a
                   href="https://youtube.com/ihwand"
                   target="blank"
                 >

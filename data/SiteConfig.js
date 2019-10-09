@@ -8,7 +8,7 @@ const config = {
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
-  siteDescription: 'Hi saya Ihwan, seorang Mobile Developer asal Majalengka. Senang menulis dan membuat video seputar IT',
+  siteDescription: 'Hi saya Ihwan, Associate Android Developer asal Majalengka. Senang menulis dan membuat video seputar IT',
   siteRss: '/rss.xml',
   googleAnalyticsID: 'UA-125079658-2',
   disqusShortname: 'ihwanid',
@@ -18,7 +18,7 @@ const config = {
   userTwitter: 'ihwan_id',
   userLocation: 'Majalengka, ID',
   userAvatar: 'https://api.adorable.io/avatars/150/test.png',
-  userDescription: 'Hi saya Ihwan, seorang Mobile Developer asal Majalengka. Senang menulis dan membuat video seputar IT.',
+  userDescription: 'Hi saya Ihwan, seorang Associate Android Developer asal Majalengka. Senang menulis dan membuat video seputar IT.',
   menuLinks: [
     {
       name: 'Me',
