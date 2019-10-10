@@ -10,7 +10,6 @@ export default class Contact extends Component {
           Sebelum kirim pesan silahkan menulis salam dan tulis apa keperluannya. boleh bertanya seputar IT, sharing cerita dan pengalaman atau sekedar mengucapkan terimakasih.
           Saya tidak membalas pesan yang tidak didahulukan dengan salam, atau sekedar menulis test, p atau hanya mengirim titik. 
         </p>
-        <p>You can find me around the web:</p>
         <ul>
           <li>
             <strong>Email</strong>: <a href="mailto:mynameisihwan@gmail.com">mynameisihwan@gmail.com</a>
