@@ -33,7 +33,8 @@ export default class Index extends Component {
             </a>
             <h1>Hi, Saya Ihwan</h1>
             <p>
-                Saya seorang Associate Android Developer, senang menulis dan juga sharing seputar IT di <a
+                Saya seorang <a href="https://www.credential.net/52n8uj8x"
+                  target="blank">Associate Android Developer</a>, senang menulis dan juga sharing seputar IT di <a
                   href="https://youtube.com/ihwand"
                   target="blank"
                 >
