@@ -1,5 +1,5 @@
 const config = {
-  siteTitle: 'Ihwan ID',
+  siteTitle: 'Code With Ihwan',
   siteTitleShort: 'Ihwan',
   siteTitleAlt: 'Ihwan ID',
   siteLogo: '/logos/logo.png',
