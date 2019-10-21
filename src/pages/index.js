@@ -1,148 +1,62 @@
-import React, { Component } from 'react'
-import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
-import Layout from '../layout'
-import PostListing from '../components/PostListing'
-import GitHubButton from 'react-github-btn'
-import SEO from '../components/SEO'
-import config from '../../data/SiteConfig'
-import photo from '../../content/images/me-lite.png'
+import React from "react";
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
 
-export default class Index extends Component {
+import { setNavigatorPosition, setNavigatorShape } from "../state/store";
+import { featureNavigator } from "../utils/shared";
+import Seo from "../components/Seo";
+
+class Index extends React.Component {
+  featureNavigator = featureNavigator.bind(this);
+
+  componentWillMount() {
+    if (this.props.navigatorPosition !== "is-featured") {
+      this.props.setNavigatorPosition("is-featured");
+    }
+  }
+
   render() {
-    const latestPostEdges = this.props.data.latest.edges
-    const popularPostEdges = this.props.data.popular.edges
-    
+    const { data } = this.props;
+    const facebook = (((data || {}).site || {}).siteMetadata || {}).facebook;
+
     return (
-      <Layout>
-        <Helmet title={`${config.siteTitle} – Associate Android Developer`} />
-        <SEO />
-        <div className="container">
-          <div className="lead">
-            <a
-              href="https://youtube.com/ihwand"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={photo}
-                className="lite-icon"
-                title="Hi i'm Ihwan"
-                alt="Hi i'm Ihwan"
-              />
-            </a>
-            <h1>Hi, Saya Ihwan</h1>
-            <p>
-                Saya seorang <a href="https://www.credential.net/52n8uj8x"
-                  target="blank">Associate Android Developer</a>, senang menulis dan juga sharing seputar IT di <a
-                  href="https://youtube.com/ihwand"
-                  target="blank"
-                >
-                 Youtube
-                </a>. Di sini kamu bisa membaca beberapa tulisanku. Semoga bermanfaat.
-              </p>
-            <div className="social-buttons">
-              <div>
-                <a
-                  className="twitter-follow-button"
-                  href="https://twitter.com/ihwan_id"
-                  data-size="large"
-                  data-show-screen-name="false"
-                >
-                  Follow @ihwan_id
-                </a>
-              </div>
-              <div>
-                <GitHubButton
-                  href="https://github.com/ihwanid"
-                  data-size="large"
-                  data-show-count="true"
-                  aria-label="Follow @ihwanid on GitHub"
-                >
-                  Follow
-                </GitHubButton>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="container">
-          <section className="section">
-            <h2>Latest Articles</h2>
-            <PostListing simple postEdges={latestPostEdges} />
-          </section>
-
-          <section className="section">
-            <h2>Most Popular</h2>
-            <PostListing simple postEdges={popularPostEdges} />
-          </section>
-        </div>
-      </Layout>
-    )
+      <div>
+        <Seo facebook={facebook} />
+      </div>
+    );
   }
 }
 
+Index.propTypes = {
+  data: PropTypes.object.isRequired,
+  navigatorPosition: PropTypes.string.isRequired,
+  setNavigatorPosition: PropTypes.func.isRequired,
+  isWideScreen: PropTypes.bool.isRequired
+};
+
+const mapStateToProps = (state, ownProps) => {
+  return {
+    navigatorPosition: state.navigatorPosition,
+    isWideScreen: state.isWideScreen
+  };
+};
+
+const mapDispatchToProps = {
+  setNavigatorPosition,
+  setNavigatorShape
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Index);
+
+//eslint-disable-next-line no-undef
 export const pageQuery = graphql`
   query IndexQuery {
-    latest: allMarkdownRemark(
-      limit: 6
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            categories
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
-            date
-            template
-          }
-        }
-      }
-    }
-    popular: allMarkdownRemark(
-      limit: 6
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { categories: { eq: "Popular" } } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            categories
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
-            date
-            template
-          }
+    site {
+      siteMetadata {
+        facebook {
+          appId
         }
       }
     }
   }
-`
+`;
