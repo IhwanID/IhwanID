@@ -1,6 +1,6 @@
 ---
 path: "/post-five"
-cover: "../2018-10-19/blocks.jpg"
+cover: "../2019-10-22/blocks.jpg"
 date: "2018-10-19"
 title: "Post Number Five"
 tags: ['tutorial', 'javascript', 'frontend']
