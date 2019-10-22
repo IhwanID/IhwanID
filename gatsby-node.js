@@ -1,47 +1,26 @@
-const webpack = require("webpack");
-//const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
-const _ = require("lodash");
-const Promise = require("bluebird");
-const path = require("path");
-const { createFilePath } = require(`gatsby-source-filesystem`);
-const { store } = require(`./node_modules/gatsby/dist/redux`);
+const path = require('path');
 
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators;
-  if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` });
-    const separtorIndex = ~slug.indexOf("--") ? slug.indexOf("--") : 0;
-    const shortSlugStart = separtorIndex ? separtorIndex + 2 : 0;
-    createNodeField({
-      node,
-      name: `slug`,
-      value: `${separtorIndex ? "/" : ""}${slug.substring(shortSlugStart)}`
-    });
-    createNodeField({
-      node,
-      name: `prefix`,
-      value: separtorIndex ? slug.substring(1, separtorIndex) : ""
-    });
-  }
-};
-
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
-    const postTemplate = path.resolve("./src/templates/PostTemplate.js");
-    const pageTemplate = path.resolve("./src/templates/PageTemplate.js");
+    const postTemplate = path.resolve('src/templates/post.jsx');
+    const tagPage = path.resolve('src/pages/tags.jsx');
+    const tagPosts = path.resolve('src/templates/tag.jsx');
+
     resolve(
       graphql(
         `
-          {
-            allMarkdownRemark(filter: { id: { regex: "//posts|pages//" } }, limit: 1000) {
+          query {
+            allMarkdownRemark(
+              sort: { order: ASC, fields: [frontmatter___date] }
+            ) {
               edges {
                 node {
-                  id
-                  fields {
-                    slug
-                    prefix
+                  frontmatter {
+                    path
+                    title
+                    tags
                   }
                 }
               }
@@ -50,21 +29,63 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         `
       ).then(result => {
         if (result.errors) {
-          console.log(result.errors);
-          reject(result.errors);
+          return reject(result.errors);
         }
 
-        // Create posts and pages.
-        _.each(result.data.allMarkdownRemark.edges, edge => {
-          const slug = edge.node.fields.slug;
-          const isPost = /posts/.test(edge.node.id);
+        const posts = result.data.allMarkdownRemark.edges;
+
+        const postsByTag = {};
+        // create tags page
+        posts.forEach(({ node }) => {
+          if (node.frontmatter.tags) {
+            node.frontmatter.tags.forEach(tag => {
+              if (!postsByTag[tag]) {
+                postsByTag[tag] = [];
+              }
+
+              postsByTag[tag].push(node);
+            });
+          }
+        });
+
+        const tags = Object.keys(postsByTag);
+
+        createPage({
+          path: '/tags',
+          component: tagPage,
+          context: {
+            tags: tags.sort(),
+          },
+        });
+
+        //create tags
+        tags.forEach(tagName => {
+          const posts = postsByTag[tagName];
 
           createPage({
-            path: slug,
-            component: isPost ? postTemplate : pageTemplate,
+            path: `/tags/${tagName}`,
+            component: tagPosts,
             context: {
-              slug: slug
-            }
+              posts,
+              tagName,
+            },
+          });
+        });
+
+        //create posts
+        posts.forEach(({ node }, index) => {
+          const path = node.frontmatter.path;
+          const prev = index === 0 ? null : posts[index - 1].node;
+          const next =
+            index === posts.length - 1 ? null : posts[index + 1].node;
+          createPage({
+            path,
+            component: postTemplate,
+            context: {
+              pathSlug: path,
+              prev,
+              next,
+            },
           });
         });
       })
@@ -72,46 +93,11 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   });
 };
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  switch (stage) {
-    case "build-javascript":
-      {
-        let components = store.getState().pages.map(page => page.componentChunkName);
-        components = _.uniq(components);
-        config.plugin("CommonsChunkPlugin", webpack.optimize.CommonsChunkPlugin, [
-          {
-            name: `commons`,
-            chunks: [`app`, ...components],
-            minChunks: (module, count) => {
-              const vendorModuleList = []; // [`material-ui`, `lodash`];
-              const isFramework = _.some(
-                vendorModuleList.map(vendor => {
-                  const regex = new RegExp(`[\\\\/]node_modules[\\\\/]${vendor}[\\\\/].*`, `i`);
-                  return regex.test(module.resource);
-                })
-              );
-              return isFramework || count > 1;
-            }
-          }
-        ]);
-        // config.plugin("BundleAnalyzerPlugin", BundleAnalyzerPlugin, [
-        //   {
-        //     analyzerMode: "static",
-        //     reportFilename: "./report/treemap.html",
-        //     openAnalyzer: true,
-        //     logLevel: "error",
-        //     defaultSizes: "gzip"
-        //   }
-        // ]);
-      }
-      break;
-  }
-  return config;
-};
-
-exports.modifyBabelrc = ({ babelrc }) => {
-  return {
-    ...babelrc,
-    plugins: babelrc.plugins.concat([`syntax-dynamic-import`, `dynamic-import-webpack`])
-  };
+/* Allows named imports */
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+    },
+  });
 };

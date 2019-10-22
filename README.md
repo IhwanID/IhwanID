@@ -1,150 +1,152 @@
-# PersonalBlog
+<p align="center">
+  <a href="https://github.com/justinformentin/gatsby-v2-tutorial-starter">
+    <img
+      src="https://i.imgur.com/mW3HLrn.png"
+      height="80"
+      alt="gatsby-v2-tutorial-starter"
+      title="Gatsby v2 Tutorial Starter"
+    />
+  </a>
+</p>
 
-A [GatsbyJS](https://www.gatsbyjs.org/) personal blog starter. <br /><br />
+<p align="center">
+  <a href="https://circleci.com/gh/justinformentin/gatsby-v2-tutorial-starter">
+    <img
+      src="https://circleci.com/gh/justinformentin/gatsby-v2-tutorial-starter.svg?style=svg"
+      alt="CircleCI"
+    />
+  </a>
+  <a href="https://codeclimate.com/github/justinformentin/gatsby-v2-tutorial-starter">
+    <img
+      src="https://codeclimate.com/github/justinformentin/gatsby-v2-tutorial-starter/badges/gpa.svg"
+      alt="Maintainability"
+    />
+  </a>
+  <a href="https://codeclimate.com/github/justinformentin/gatsby-v2-tutorial-starter">
+    <img
+      src="https://codeclimate.com/github/justinformentin/gatsby-v2-tutorial-starter/badges/issue_count.svg"
+      alt="Issues"
+    />
+  </a>
+  <a href="https://www.codacy.com/app/justinformentin/gatsby-v2-tutorial-starter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=justinformentin/gatsby-v2-tutorial-starter&amp;utm_campaign=Badge_Grade">
+    <img
+      src="https://api.codacy.com/project/badge/Grade/c910ab2b18a24dde80cfc05b73c908aa"
+      alt="Code Quality"
+    />
+  </a>
+  <a href="https://david-dm.org/justinformentin/gatsby-v2-tutorial-starter">
+    <img
+      src="https://img.shields.io/david/justinformentin/gatsby-v2-tutorial-starter.svg"
+      alt="Dependencies"
+    />
+  </a>
+  <a href="https://github.com/prettier/prettier">
+    <img
+      src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"
+      alt="styled with prettier"
+    />
+  </a>
+  <a href="https://www.netlify.com">
+    <img
+      src="https://img.shields.io/badge/deploys%20by-netlify-00c7b7.svg"
+      alt="deploys by netlify"
+    />
+  </a>
+</p>
 
-[![GitHub license][mit-badge]][mit]
-[![GitHub tag][tag-badge]][tag]
-[![GitHub stars][stars-badge]][stars]
-![contributors][contributors-badge]
-[![PRs Welcome][prs-badge]][prs]
-[![Code of Conduct][coc-badge]][coc]
-[![code style prettier][prettier-badge]][prettier]
-[![Tweet][twitter-badge]][twitter]
+<p align="center">
+  <strong>
+    View the demo at <a href="https://gatsby-tutorial-starter.netlify.com">gatsby-tutorial-starter.netlify.com</a>.
+  </strong>
+</p>
 
-  <br />
+<p align="center">
+  <strong>
+    Read the full step by step guide: <a href="https://justinformentin.com/guide-to-building-a-gatsby-site">Guide to Build a Gatsby Site with Perfect Pagespeed Scores</a></a>.
+  </strong>
+</p>
 
-![](static/screens/gatsby-starter-personal-blog.gif) <br />
+## Features
 
-  <br />
+- Gatsby v2
+- Emotion for styling
+- Code syntax highlighting
+- Tags
+- SEO
+  - Sitemap generation
+  - Schema.org JSON-LD for Google Rich Snippets
+  - Twitter Tags
+  - OpenGraph Tags for Facebook/Google+/Pinterest
+  - robots.txt
+- Typography.js
+- Typefaces for faster font loading
+- Offline Support
+- Manifest Support
+- Gatsby Image
+  - Responsive images
+  - Traced SVG Loading with Lazy-Loading
+  - WebP Support
+- Development tools
+  - ESLint for linting
+  - Prettier for code style
+  - CircleCI support
+  - Google Lighthouse Optimization
 
-See the starter in action » [demo website](https://gatsby-starter-personal-blog.greglobinski.com/) <br />For more information visit » [dev.greglobinski.com/gatsby-starter-personal-blog](https://dev.greglobinski.com/gatsby-starter-personal-blog/)
+# Lighthouse Audit
 
-## Description
+<p align="center">
+  <a href="https://github.com/justinformentin/gatsby-v2-tutorial-starter">
+    <img
+      src="https://i.imgur.com/YOVC76X.png"
+      alt="Google Lighthouse Audit"
+      title="Google Lighthouse Audit"
+    />
+  </a>
+</p>
 
-A ready to use, easy to customize [GatsbyJS](https://github.com/gatsbyjs/gatsby) personal blog starter with 'like app' layout transitions.
+# Usage
 
-## Features:
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/justinformentin/gatsby-v2-tutorial-starter)
 
-- Customizable
-- Easy editable content in Markdown files (posts, pages and parts)
-- Easily restyled through theme object
-- Styling with JSS
-- Comments (Facebook)
-- Post categories
-- Post list filtering
-- Full text searching (Algolia)
-- Contact form (Netlify form handling)
-- Material UI (@next)
-- RSS feed
-- Full screen mode
-- User adjustable articles’ body copy font size
-- Social sharing (Twitter, Facebook, Google, LinkedIn)
-- PWA (manifest.json, offline support, favicons)
-- Google Analytics
-- Favicons generator (node script)
-- Components lazy loading with AsyncComponent (social sharing, info box)
-- ESLint (google config)
-- Prettier code styling
-- Custom webpack CommonsChunkPlugin settings
-- Webpack BundleAnalyzerPlugin
+```bash
+Download project
+# With `gatsby-cli`
+gatsby new my-site https://github.com/justinformentin/gatsby-v2-tutorial-starter
 
-## Prerequisites
+OR
 
-If you do not have Gatsby Cli installed yet, do it first.
+# Cloning
+git clone my-site https://github.com/justinformentin/gatsby-v2-tutorial-starter.git
+cd my-site
 
-```text
-npm install --global gatsby-cli
-```
+THEN
 
-More information on [GatsbyJS.org](https://www.gatsbyjs.org/tutorial/part-one)
+# Install dependencies
+npm i
 
-## Getting started
-
-Install the starter using Gatsby Cli `gatsby new` command.
-
-```text
-gatsby new [NEW_SITE_DIRECTORY_FOR_YOUR_BLOG] https://github.com/greglobinski/gatsby-starter-personal-blog.git
-```
-
-Go into the newly created directory and run
-
-```text
+# Start dev server
 gatsby develop
-```
 
-to hot-serve your website on http://localhost:8000 or
-
-```text
+# Build for production
 gatsby build
+
+# Format with Prettier
+npm format
+
 ```
 
-to create static site ready to host (/public).
-
-##### External services
-
-The starter uses external services for some functions: comments, searching, analytics. To use them you have to secure some access data. All services are free to use or have generous free tiers big enough for a personal blog.
-
-Create an `.env` file like below in the root folder. Change `...` placeholders with real data.
-
-```text
-GOOGLE_ANALYTICS_ID=...
-ALGOLIA_APP_ID=...
-ALGOLIA_SEARCH_ONLY_API_KEY=...
-ALGOLIA_ADMIN_API_KEY=...
-ALGOLIA_INDEX_NAME=...
-FB_APP_ID=...
+## Folder structure
+```bash
+├──.circleci # Circleci integration
+├── config # Theme and site metadata
+├── content # Post markdown and images
+├── src
+│   ├── components
+│   ├── layouts
+│   ├── pages
+│   ├── style
+│   └── templates # For Post and Tag page generation
+├── static # Images for logo and favicon, and robots.txt
+├── gatsby-config.js # Plugin loading and configuration
+└── gatsby-node.js # Generate posts/tags and modify webpack
 ```
-
-### Instructions & tutorials
-
-- [How to install, setup and add new content to a Blog starter](https://dev.greglobinski.com/install-blog-starter/)
-- [How to customize the PersonalBlog starter's appearance](https://dev.greglobinski.com/customize-personal-blog-starter/)
-- [Setup Algolia account for your GatsbyJS blog](https://dev.greglobinski.com/setup-algolia-account/)
-- More articles soon at [Front-end web development with Greg](https://dev.greglobinski.com/)
-
-## Windows users
-
-You should take a look at this: [Gatsby on Windows](https://www.gatsbyjs.org/docs/gatsby-on-windows/)
-
-## Authors
-
-- Greg Lobinski [@greglobinski](https://github.com/greglobinski)
-
-See also the list of [contributors](https://github.com/greglobinski/gatsby-starter-personal-blog/graphs/contributors) who participated in this project.
-
-## Contributing
-
-- Fork the repo
-- Create your feature branch (git checkout -b feature/fooBar)
-- Commit your changes (git commit -am 'Add some fooBar')
-- Push to the branch (git push origin feature/fooBar)
-- Create a new Pull Request
-
-## Licence
-
-MIT License
-
-Copyright (c) 2017 gatsbyjs <br />Copyright (c) 2018 greg lobinski
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc]: https://github.com/greglobinski/gatsby-starter-personal-blog/blob/master/CODE_OF_CONDUCT.md
-[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[prs]: http://makeapullrequest.com
-[twitter]: https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fgreglobinski%2Fgatsby-starter-personal-blog
-[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/greglobinski/gatsby-starter-personal-blog.svg?style=social
-[tag-badge]: https://img.shields.io/github/tag/greglobinski/gatsby-starter-personal-blog.svg
-[tag]: https://github.com/greglobinski/gatsby-starter-personal-blog
-[stars-badge]: https://img.shields.io/github/stars/greglobinski/gatsby-starter-personal-blog.svg
-[stars]: https://github.com/greglobinski/gatsby-starter-personal-blog/stargazers
-[contributors-badge]: https://img.shields.io/github/contributors/greglobinski/gatsby-starter-personal-blog.svg
-[prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
-[prettier]: https://github.com/prettier/prettier
-[mit-badge]: https://img.shields.io/github/license/greglobinski/gatsby-starter-personal-blog.svg
-[mit]: https://github.com/greglobinski/gatsby-starter-personal-blog/blob/master/LICENSE
