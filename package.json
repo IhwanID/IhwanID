@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-tutorial-starter",
-  "author": "Justin Formentin",
-  "title": "Gatsby V2 Tutorial Starter",
-  "description": "My Blog",
-  "homepage": "https://gatsby-tutorial-starter.netlify.com",
+  "name": "codewithihwan",
+  "author": "Ihwan ID",
+  "title": "codewithihwan",
+  "description": "CodeWIthIhwan",
+  "homepage": "https://codewith.ihwan.id",
   "license": "MIT",
   "version": "0.0.7",
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinformentin/gatsby-v2-tutorial-starter"
+    "url": "https://github.com/ihwanid/ihwan.id"
   },
   "scripts": {
     "develop": "gatsby develop",
@@ -66,10 +66,10 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "justin formentin",
-    "personal blog",
-    "tutorial",
-    "gatsby",
-    "emotion"
+    "IhwanID",
+    "codewithihwan",
+    "code with ihwan",
+    "ihwan",
+    "flutter indonesia"
   ]
 }
