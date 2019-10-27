@@ -135,5 +135,5 @@ class _WikipediaScreenState extends State<WikipediaScreen> {
 
  okey jika sudah selesai maka seharusnya aplikasi nya jadi seperti berikut. cukup simple tapi ini lebih mudah jika kita menggunakan cara konvensional native pada umumnya. 
 
-![main](../main.png)
-![wikipedia](../wikipedia.png)
+![main](main.png)
+![wikipedia](wikipedia.png)
