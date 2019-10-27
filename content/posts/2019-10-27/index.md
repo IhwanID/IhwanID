@@ -35,7 +35,7 @@ nah kalau kelas Rockets nya masih error karena kita belum membuat kelas tersebut
 
 selanjutnya kita override method initState dan masukan nilai fungsi fetchAllRockets kedalam variable listRockets.
 
-```
+```dart
 @override
   void initState() {
     super.initState();
