@@ -10,9 +10,7 @@ import photo from '../../content/images/me-lite.png'
 
 export default class Index extends Component {
   render() {
-    const latestPostEdges = this.props.data.latest.edges
     const popularPostEdges = this.props.data.popular.edges
-    
     return (
       <Layout>
         <Helmet title={`${config.siteTitle} – Associate Android Developer`} />
@@ -68,12 +66,7 @@ export default class Index extends Component {
 
         <div className="container">
           <section className="section">
-            <h2>Latest Articles</h2>
-            <PostListing simple postEdges={latestPostEdges} />
-          </section>
-
-          <section className="section">
-            <h2>Most Popular</h2>
+            <h2>Artikel Pilihan</h2>
             <PostListing simple postEdges={popularPostEdges} />
           </section>
         </div>

@@ -21,8 +21,8 @@ const config = {
   userDescription: 'Hi saya Ihwan, seorang Associate Android Developer asal Majalengka. Senang menulis dan membuat video seputar IT.',
   menuLinks: [
     {
-      name: 'Me',
-      link: '/me/',
+      name: 'CodeWithIhwan',
+      link: 'https;//codewith.ihwan.id',
     },
     {
       name: 'Articles',
