@@ -21,21 +21,13 @@ const config = {
   userDescription: 'Hi saya Ihwan, seorang Associate Android Developer asal Majalengka. Senang menulis dan membuat video seputar IT.',
   menuLinks: [
     {
-      name: 'CodeWithIhwan',
-      link: 'https://codewith.ihwan.id',
-    },
-    {
       name: 'Articles',
       link: '/blog/',
     },
     {
       name: 'Now',
       link: '/now/',
-    },
-    {
-      name: 'Contact',
-      link: '/contact/',
-    },
+    }
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff',

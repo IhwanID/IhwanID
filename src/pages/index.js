@@ -32,12 +32,15 @@ export default class Index extends Component {
             <h1>Hi, Saya Ihwan</h1>
             <p>
                 Saya seorang <a href="https://www.credential.net/52n8uj8x"
-                  target="blank">Associate Android Developer</a>, senang menulis dan juga sharing seputar IT di <a
+                  target="blank">Associate Android Developer</a>, sharing seputar IT di <a
                   href="https://youtube.com/ihwand"
                   target="blank"
                 >
                  Youtube
-                </a>. Di sini kamu bisa membaca beberapa tulisanku. Semoga bermanfaat.
+                </a> dan <a
+                  href="https://codewith.ihwan.id"
+                  target="blank"
+                >blog</a> CodeWithIhwan. Semoga bermanfaat.
               </p>
             <div className="social-buttons">
               <div>
