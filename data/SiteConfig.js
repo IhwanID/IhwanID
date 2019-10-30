@@ -22,7 +22,7 @@ const config = {
   menuLinks: [
     {
       name: 'CodeWithIhwan',
-      link: 'https;//codewith.ihwan.id',
+      link: 'https://codewith.ihwan.id',
     },
     {
       name: 'Articles',
