@@ -1,6 +1,6 @@
 ---
 path: "/fetch-data-list-flutter"
-cover: "../images/thumbnails/flutter.png"
+cover: "./images/thumbnails/flutter.png"
 date: "2018-10-27"
 title: "Fetch Data from API SpaceX"
 tags: ['flutter', 'tutorial']
