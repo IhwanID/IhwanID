@@ -1,6 +1,6 @@
 ---
 path: "/flavor-app"
-cover: "../2018-10-17/finance.jpg"
+cover: "2018-10-17/finance.jpg"
 date: "2019-11-01"
 title: "Build & App with Firebase Auth Flutter"
 tags: ['flutter', 'tutorial']
