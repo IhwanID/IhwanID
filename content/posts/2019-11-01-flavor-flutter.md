@@ -1,9 +1,9 @@
 ---
-path: "/post-three"
-cover: "./finance.jpg"
-date: "2018-10-17"
-title: "Post Number Three"
-tags: ['gatsby', 'news', 'other']
+path: "/flavor-flutter"
+cover: "../images/thumbnails/flutter.png"
+date: "2019-11-01"
+title: "Flavor development & production pada Flutter"
+tags: ['flutter', 'tutorial']
 published: true
 ---
 Harmonics. Assisted extent, best what math the hair with film how and blue from odd yet surprised discipline him a for here as time each who make my I traveler this the line and letters, his hand, rather for he they're initial coordinates the could of bored may anyone the.

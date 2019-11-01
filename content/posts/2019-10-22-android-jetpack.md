@@ -1,6 +1,6 @@
 ---
 path: "/android-jetpack"
-cover: "./blocks.jpg"
+cover: "../images/thumbnails/flutter.png"
 date: "2019-10-22"
 title: "Android Jetpack untuk pemula"
 published: true

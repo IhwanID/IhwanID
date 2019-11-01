@@ -1,12 +1,12 @@
 ---
-path: "/flavor-app"
-cover: "2018-10-17/finance.jpg"
+path: "/flutter-firebase-auth"
+cover: "../images/thumbnails/flutter.png"
 date: "2019-11-01"
-title: "Build & App with Firebase Auth Flutter"
+title: "Login & Register with Firebase Auth Flutter"
 tags: ['flutter', 'tutorial']
 published: true
 ---
-TEst (Artikel Sebelumnya)[https://codewith.ihwan.id] kita sudah berhasil melakukan setup firebase ke aplikasi flutter kita. 
+Di (Artikel Sebelumnya)[https://codewith.ihwan.id] kita sudah berhasil melakukan setup firebase ke aplikasi flutter kita. 
 
 Selanjutnya kita akan menggunakan salah satu service dari firebase yaitu firebase auth. sebelum kita menginstal library yang dibutuhkan ada baiknya kita mengaktifkan dulu feature Authentication melalui dashboard firebase. silahkan pilih menu Authentication -> Metode Login kemudian aktifkan email dan sandi. penampakan seperti gambar berikut :
 
