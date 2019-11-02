@@ -4,7 +4,7 @@ cover: "thumbnails/flutter.png"
 date: "2019-10-22"
 title: "Android Jetpack untuk pemula"
 published: true
-tags: ['android', 'jetpack']
+tags: ['android']
 ---
 Untuk Para Android Native Developer tentunya sudah tidak asing dengan kata Android Jetpack. Setiap kali kita mengunjungi halaman resmi [Android Developer](https://developer.android.com/) pasti ada tulisan Jetpack. Nah maka dari itu tidak ada salahnya jika aku menjelaskan kembali apa itu Android Jetpack dan penggunaan-nya berdasarkan pengalaman pribadiku yang sudah menerapkan kumpulan library ini dalam beberapa project kantor maupun project pribadiku. 
 
