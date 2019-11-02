@@ -112,7 +112,6 @@ const PostList = ({ cover, path, date, title, excerpt }) => (
     </Image>
     <StyledLink to={path}>
       <Info>
-        <span>{date}</span>
         <Title>{title}</Title>
       </Info>
     </StyledLink>

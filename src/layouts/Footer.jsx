@@ -25,7 +25,7 @@ const Footer = () => (
   <Wrapper>
     <Text>
       <span>
-        CodeWithIhwan -{' '}
+        CodeWithIhwan 2019 - by {' '}
         <a href="https://ihwan.id">IhwanID</a>
       </span>
     </Text>

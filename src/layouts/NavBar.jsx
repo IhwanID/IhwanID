@@ -34,8 +34,10 @@ const NavBar = () => (
     </StyledLink>
     <Nav>
       <Link to="/">Home</Link>
-      <Link to="/blog">Blog</Link>
-      <Link to="/about">About</Link>
+      <Link to="/tags/flutter">Flutter</Link>
+      <Link to="/tags/android">Android</Link>
+      <Link to="/tags/kotlin">Kotlin</Link>
+      <Link to="/blog">More..</Link>
     </Nav>
   </Headroom>
 );

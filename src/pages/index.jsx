@@ -24,8 +24,8 @@ const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
-      <Helmet title={'Home Page'} />
-      <Header title="Home Page">Code With Ihwan</Header>
+      <Helmet title={'CodeWithIhwan | Beranda'} />
+      <Header title="Beranda">CodeWithIhwan</Header>
       <PostWrapper>
         {edges.map(({ node }) => {
           const { id, excerpt, frontmatter } = node;
@@ -83,7 +83,7 @@ export const query = graphql`
             title
             path
             tags
-            date(formatString: "DDDD MMMM YYYY")
+            date(formatString: "DD MMMM YYYY")
             cover {
               childImageSharp {
                 fluid(
