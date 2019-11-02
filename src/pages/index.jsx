@@ -83,7 +83,7 @@ export const query = graphql`
             title
             path
             tags
-            date(formatString: "MM.DD.YYYY")
+            date(formatString: "DD MMMM YYYY")
             cover {
               childImageSharp {
                 fluid(

@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: */tags/
 
 sitemap: https://codewith.ihwan.id/sitemap.xml
