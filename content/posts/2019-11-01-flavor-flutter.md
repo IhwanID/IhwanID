@@ -1,6 +1,6 @@
 ---
 path: "/flavor-flutter"
-cover: "thumbnails/finance.jpg"
+cover: "thumbnails/flutter.png"
 date: "2019-11-01"
 title: "Flavor development & production pada Flutter"
 tags: ['flutter', 'tutorial']

@@ -1,6 +1,6 @@
 ---
 path: "/post-two"
-cover: "thumbnails/finance.jpg"
+cover: "thumbnails/flutter.png"
 date: "2018-10-16"
 title: "Post Number Two"
 published: true
