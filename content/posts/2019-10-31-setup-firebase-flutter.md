@@ -1,6 +1,6 @@
 ---
 path: "/setup-firebase-flutter"
-cover: "../images/thumbnails/finance.jpg"
+cover: "thumbnails/finance.jpg"
 date: "2019-10-31"
 title: "Firebase Setup For Flutter"
 tags: ['tutorial', 'flutter']
