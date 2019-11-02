@@ -33,7 +33,6 @@ const NavBar = () => (
       <img src={logo} alt="Gatsby Logo" />
     </StyledLink>
     <Nav>
-      <Link to="/">Home</Link>
       <Link to="/tags/flutter">Flutter</Link>
       <Link to="/tags/android">Android</Link>
       <Link to="/tags/kotlin">Kotlin</Link>
