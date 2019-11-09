@@ -13,7 +13,7 @@ Awalnya saya membuat blog ini untuk mendokumentasikan apapun yang sudah saya pel
 ### Portofolio
 
 - GitHub: [IhwanID](https://github.com/IhwanID)
-- Youtube: [IhwanD](https://youtube.com/ihwand)
+- Youtube: [IhwanD](hhttps://www.youtube.com/channel/UCjntzibNSsjjIOh0HoP9vxw)
 - Medium: [ihwanid](https://medium.com/@ihwanid)
 
 
