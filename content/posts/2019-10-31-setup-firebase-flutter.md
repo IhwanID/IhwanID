@@ -1,9 +1,9 @@
 ---
 path: "/setup-firebase-flutter"
-cover: "../images/thumbnails/finance.jpg"
+cover: "thumbnails/flutter.png"
 date: "2019-10-31"
 title: "Firebase Setup For Flutter"
-tags: ['tutorial', 'flutter']
+tags: ['flutter']
 published: true
 ---
 Buka https://console.firebase.google.com/ dan buatlah project baru, penampakan seperti berikut. 

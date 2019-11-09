@@ -1,9 +1,9 @@
 ---
 path: "/fetch-data-list-flutter"
-cover: "../images/thumbnails/finance.jpg"
+cover: "thumbnails/flutter.png"
 date: "2018-10-27"
 title: "Fetch Data from API SpaceX"
-tags: ['flutter', 'tutorial']
+tags: ['flutter']
 published: true
 ---
 
@@ -135,5 +135,5 @@ class _WikipediaScreenState extends State<WikipediaScreen> {
 
  okey jika sudah selesai maka seharusnya aplikasi nya jadi seperti berikut. cukup simple tapi ini lebih mudah jika kita menggunakan cara konvensional native pada umumnya. 
 
-![main](main.png)
-![wikipedia](wikipedia.png)
+![main](../images/main.png)
+![wikipedia](../images/wikipedia.png)
