@@ -18,7 +18,7 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <a
-              href="hhttps://www.youtube.com/channel/UCjntzibNSsjjIOh0HoP9vxw"
+              href="https://www.youtube.com/channel/UCjntzibNSsjjIOh0HoP9vxw"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -33,7 +33,7 @@ export default class Index extends Component {
             <p>
                 Saya seorang <a href="https://www.credential.net/52n8uj8x"
                   target="blank">Associate Android Developer</a>, sharing seputar IT di <a
-                  href="hhttps://www.youtube.com/channel/UCjntzibNSsjjIOh0HoP9vxw"
+                  href="https://www.youtube.com/channel/UCjntzibNSsjjIOh0HoP9vxw"
                   target="blank"
                 >
                  Youtube

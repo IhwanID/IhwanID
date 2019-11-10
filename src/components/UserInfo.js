@@ -11,7 +11,7 @@ export default class UserInfo extends Component {
             <p>
              I'm Ihwan, a Mobile Software Developer Specializing in Android and iOS from Majalengka.
             </p>
-            <a href="hhttps://www.youtube.com/channel/UCjntzibNSsjjIOh0HoP9vxw" className="donate-button" target="_blank">
+            <a href="https://www.youtube.com/channel/UCjntzibNSsjjIOh0HoP9vxw" className="donate-button" target="_blank">
               Support My Channel
               {' '}
             <img src={youtube} className="coffee-icon" />
