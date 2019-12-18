@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import NewsletterForm from './NewsletterForm'
 
 export default class Contact extends Component {
   render() {
@@ -7,7 +6,7 @@ export default class Contact extends Component {
       <>
         <h1>Kontak Ihwan</h1>
         <p>Kalau ada perlu dengan saya silahkan hubungi saya lewat kontak dibawah, boleh melalui email, sosial media ataupun telegram. 
-          Sebelum kirim pesan silahkan menulis salam dan tulis apa keperluannya. boleh bertanya seputar IT, sharing cerita dan pengalaman atau sekedar mengucapkan terimakasih.
+          Sebelum kirim pesan silahkan menulis salam dan tulis apa keperluannya, boleh bertanya seputar IT, sharing cerita dan pengalaman atau sekedar mengucapkan terimakasih.
           Saya tidak membalas pesan yang tidak didahulukan dengan salam, atau sekedar menulis test, p atau hanya mengirim titik. 
         </p>
         <ul>
