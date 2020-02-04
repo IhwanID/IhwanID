@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { Layout, Container } from 'layouts';
 import { Header } from 'components';
-import config from '../../config/site';
+import config from '../../data/site';
 
 const StyledLink = styled(Link)`
   color: ${props => props.theme.colors.white.light};

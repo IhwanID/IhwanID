@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import Img from 'gatsby-image';
 import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
-import theme from '../../config/theme';
+import theme from '../../data/theme';
 
 const Wrapper = styled.article`
   margin-bottom: 2rem;

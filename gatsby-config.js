@@ -1,4 +1,4 @@
-const config = require('./config/site');
+const config = require('./data/site');
 
 module.exports = {
   siteMetadata: {
@@ -42,7 +42,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: 'config/typography.js',
+        pathToConfigModule: 'data/typography.js',
       },
     },
     'gatsby-plugin-sharp',

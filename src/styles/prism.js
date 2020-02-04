@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-import theme from '../../config/theme';
+import theme from '../../data/theme';
 
 const prism = css`
   p > code,

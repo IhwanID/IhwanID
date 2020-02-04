@@ -6,7 +6,7 @@ import 'typeface-open-sans';
 import 'typeface-candal';
 import { SEO } from 'components';
 import { NavBar, Footer } from 'layouts';
-import theme from '../../config/theme';
+import theme from '../../data/theme';
 import headroom from '../styles/headroom';
 
 const Layout = ({ children }) => (
