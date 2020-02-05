@@ -5,9 +5,9 @@ export default class Footer extends Component {
     return (
       <footer className="footer container">
         <div>
-        <strong>Ihwan ID</strong>
+          <strong>Ihwan ID</strong>
           {' '}
-/
+          /
           {' '}
           <a href="https://twitter.com/@ihwan_id" target="_blank">
             Twitter
@@ -21,9 +21,10 @@ export default class Footer extends Component {
           {' '}
           /
           {' '}
-          <a href="https://github.com/ihwanid/ihwan.id" target="_blank">
-            View source
+          <a href="https://www.youtube.com/channel/UCjntzibNSsjjIOh0HoP9vxw" target="_blank">
+            Youtube
           </a>
+          {' '}
         </div>
       </footer>
     )
