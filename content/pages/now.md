@@ -1,22 +1,23 @@
 ---
-title: Apa yang saya kerjakan sekarang
+title: Sekarang Lagi Apa Wan?
 slug: now
 template: page
 ---
 
-(Halaman ini adalah halaman [now](https://nownownow.com/about), jika kamu punya blog, ayo buat juga)
+Halaman ini adalah halaman [now](https://nownownow.com/about), jika kamu punya blog, ayo buat juga
 
 Pekerjaan :
-Saat ini saya menganggur.
 
-Bisnis :
-Sedang belajar investasi reksadana dan kedepan nya ingin membuat usaha di bidang kuliner hehe. Aamiin.
+Bekerja sebagai Mobile Developer untuk ios & Android (Freelance - Self Employed).
 
-Menulis :
-Sedang menulis buku tentang pemrograman Android untuk pemula. doakan rilis tahun ini (2020).
+My Stacks : 
 
-Belajar :
-Sedang belajar serta mengulik tentang arsitektur komponen android dan beberapa library pendukung seperti rxjava (reactive programming) dan juga dagger (dependency injection) dan juga flutter.
+- Kotlin for developing Android Apps
+- Swift for developing ios Apps
+- Flutter for hybrid apps (ios & android with one codebase)
+- Firebase for backend as a service
 
-Hobi :
-Membuat video dan sharing seputar IT, kalau ada yang mau undang aku untuk jadi pembicara atau sharing seputar IT, silahkan kirim email ya kontak ku [disini](https://ihwan.id/contact). 
+Kegiatan :
+
+- Membuat video dan sharing seputar mobile programming di Youtube.
+- Sedang menulis buku tentang pemrograman Android untuk pemula. doakan rilis tahun ini (2020).
