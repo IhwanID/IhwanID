@@ -31,8 +31,7 @@ export default class Index extends Component {
             </a>
             <h1>Hi, Saya Ihwan</h1>
             <p>
-                Saya seorang <a href="https://www.credential.net/52n8uj8x"
-                  target="blank">Associate Android Developer</a>, sharing seputar IT di <a
+                Suka menulis dan sharing seputar IT di <a
                   href="https://www.youtube.com/channel/UCjntzibNSsjjIOh0HoP9vxw"
                   target="blank"
                 >
@@ -40,7 +39,7 @@ export default class Index extends Component {
                 </a> dan <a
                   href="https://codewith.ihwan.id"
                   target="blank"
-                >blog</a> CodeWithIhwan. Semoga bermanfaat.
+                >Blog</a> CodeWithIhwan. Temukan juga beberapa artikel menarik di sini. 
               </p>
             <div className="social-buttons">
               <div>

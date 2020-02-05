@@ -5,7 +5,7 @@ template: post
 thumbnail: '../thumbnails/writing.png'
 slug: benefit-belajar-programming
 categories:
-  - Personal
+  - Sharing
 tags:
   - programming
   - learning

@@ -8,7 +8,6 @@ categories:
   - Personal
 tags:
   - sharing
-  - personal
 ---
 
 Setiap orang pasti punya keresahannya masing-masing, atau paling tidak kita pernah resah dalam suatu hal. Begitu juga dengan ku, keresahan ku mungkin bisa dikatakan sangat banyak. Nah maka dari itu mulailah aku menyelesaikan beberapa keresahanku ini. Eh, By The Way aku juga punya teman yang rasanya hidup beliau tenang-tenang saja alias tidak punya keresahan hehe. 
