@@ -6,7 +6,7 @@ npm-debug.log*
 .DS_Store
 content/posts/.DS_Store
 **/.DS_Store
-
+package-lock.json
 # Runtime data
 pids
 *.pid
