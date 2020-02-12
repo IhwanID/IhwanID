@@ -93,7 +93,7 @@
     "clean": "rm -rf public && rm -rf .cache",
     "format-output": "prettier src/**/*.{js,jsx}",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
-    "lint": "eslint src/**/*.{js,jsx}",
+    "lint": "eslint src/**/*.{js,jsx}"
   },
   "remarkConfig": {
     "plugins": [
