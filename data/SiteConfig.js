@@ -17,7 +17,6 @@ const config = {
   userEmail: 'mynameisihwan@gmail.com',
   userTwitter: 'ihwan_id',
   userLocation: 'Majalengka, ID',
-  userAvatar: 'https://api.adorable.io/avatars/150/test.png',
   userDescription: 'Hi saya Ihwan, seorang Associate Android Developer asal Majalengka. Senang menulis dan membuat video seputar IT.',
   menuLinks: [
     {
