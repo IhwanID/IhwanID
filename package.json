@@ -74,7 +74,8 @@
     "stylefmt": "^6.0.3",
     "stylelint": "^12.0.0",
     "stylelint-config-standard": "^19.0.0",
-    "write-good": "^1.0.2"
+    "write-good": "^1.0.2",
+    "netlify-shortener": "^1.0.4"
   },
   "keywords": [
     "ihwan id",
@@ -93,7 +94,8 @@
     "clean": "rm -rf public && rm -rf .cache",
     "format-output": "prettier src/**/*.{js,jsx}",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
-    "lint": "eslint src/**/*.{js,jsx}"
+    "lint": "eslint src/**/*.{js,jsx}",
+    "shorten": "netlify-shortener"
   },
   "remarkConfig": {
     "plugins": [
