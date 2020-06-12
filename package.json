@@ -9,6 +9,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "main": "n/a",
+  "baseUrl": "https://ihwan.id",
   "dependencies": {
     "@babel/core": "^7.6.0",
     "@emotion/core": "^10.0.17",
