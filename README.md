@@ -1,4 +1,4 @@
-![language_stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ihwanid&theme=light&hide_langs_below=1)
+<!--![language_stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ihwanid&theme=light&hide_langs_below=1)-->
 ![github stats](https://github-readme-stats.vercel.app/api?username=ihwanid&show_icons=true)
 <!--
 **IhwanID/IhwanID** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
