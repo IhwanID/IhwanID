@@ -1,3 +1,0 @@
-User-agent: *
-
-sitemap: https://www.ihwan.id/sitemap.xml

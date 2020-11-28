@@ -1,0 +1,19 @@
+{
+  "base_url": "https://ihwan.id",
+  "site_title": "Ihwan - Personal Website",
+  "site_description": "Website dan Personal Blog milik Ihwan",
+  "site_keywords": [
+    {
+      "keyword": "ihwan"
+    },
+    {
+      "keyword": "ihwanid"
+    },
+    {
+      "keyword": "codewithihwan"
+    }
+  ],
+  "posts_per_page": 5,
+  "twitter_account": "@ihwan_id",
+  "github_account": "ihwanid"
+}

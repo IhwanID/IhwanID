@@ -1,9 +1,3 @@
 [build]
-  publish = "public"
-  command = "npm run build"
-
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
-
-[[plugins]]
-  package = "netlify-plugin-image-optim"
+  publish = "dist"
+  command = "npm run export"
