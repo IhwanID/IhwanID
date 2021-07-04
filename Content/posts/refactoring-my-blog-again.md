@@ -18,13 +18,12 @@ Okey okey sabar, disini aku pakai Swift Publish buatan dari Joh Sundell. gampang
 
 pertama clone dulu repository nya
 
-```
+```console
 git clone https://github.com/JohnSundell/Publish.git
 ```
 nah habis itu kita bisa install Publish CLI nya, gampang banget tinggal pake command dibawah ini
 ```
 cd Publish
-
 make
 ```
 nah sampe sini kita sudah berhasil install Publish CLI nya. setelah ini kita akan bikin web nya ya. 
@@ -32,13 +31,10 @@ Pertama bikin directory / folder baru. pasti udah tahu kan caranya, tidak mungki
 kalau belum bisa pake cara dibawah ini, ini lewat terminal, bisa juga lewat GUI. biasanya pake klik kanan
 (oiya, btw pastiin temen temen punya XCode ya hehe)
 
-```
+```console
 mkdir My-Blog
-
 cd My-Blog
-
 publish new
-
 open Package.swift
 ```
 
@@ -50,7 +46,7 @@ Setelah selesai running biasanya akan muncul Folder `Output` nah folder inilah y
 ## Cara preview di browser gimana?
 
 Pertanyaan Bagus, Kita bisa menjalankan web di local server dengan perintah
-```
+```console
 Publish run
 ```
 biasanya secara default akan menggunakan port 8000, jadi teman teman bisa akses di browser dengan url `localhost:8000`
@@ -60,18 +56,20 @@ biasanya secara default akan menggunakan port 8000, jadi teman teman bisa akses 
 oiya, kan ga mungkin kita share ke temen pake url  `localhost:8000` xixixi, nah disini kita bisa pake service dari netlify. tapi sebelumnya kita perlu mendeploy web kita ke repository kayak `Github` atau `Gitlab`, bitbucket juga bisa sih. intinya bikin dulu repository, biar bisa dapet URL Remote nya.
 
 Secara Umum Caranya mudah. masih di directory yang sama mari kita ketikan di terminal:
-```
+```console
 open .gitignore
 ```
 Setelah muncul, silahkan tambahkan `Output` dibaris paling bawah, ini supaya folder generated bernama Output tidak perlu kita deploy ke repository, buat apa juga. 
 And then:
-```
+
+```console
 git init
 git add .
 git commit -m "initial commit"
 git remote add origin <URL Git Remote Repository>
 git push -u origin main
 ```
+
 Nah kalau sudah terdeploy di git repository kita bisa lanjut menyambungkan ke Netlify. Buka Netlify lalu Sign in pake Github kalau emang tadi deploynya ke Github, disesuaikan ajalah pokoknya. 
 
 Kalau sudah masuk dashboard tinggal klik Button `New Site From Git` 
@@ -80,7 +78,7 @@ Setelah itu hubungkan Netlify dengan Github. maka kita bisa pilih repository yan
 
 Lalu pilih directory tersebut, Setelah itu akan ada form, isi `swift run` pada bagian `Build Command`. lalu isi `Output` pada bagian `Publish directory`
 
-[netlify-form](https://firebasestorage.googleapis.com/v0/b/blog-dc031.appspot.com/o/ihwan.id%2Fnetlify-form.png?alt=media)
+![netlify-form](https://firebasestorage.googleapis.com/v0/b/blog-dc031.appspot.com/o/ihwan.id%2Fnetlify-form.png?alt=media "Netlify Form")
 
 Pilih tombol `Deploy` setelah itu tunggu sampai proses deployment selesai. ada log nya juga kalau kamu mau lihat. intinya eksplor saja yang ada di Dashboard netlify itu.
 
