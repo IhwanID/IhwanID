@@ -1,6 +1,7 @@
 import Foundation
 import Publish
 import Plot
+import SplashPublishPlugin
 
 // This type acts as the configuration for your website.
 struct IhwanId: Website {
@@ -11,15 +12,25 @@ struct IhwanId: Website {
 
     struct ItemMetadata: WebsiteItemMetadata {
         // Add any site-specific metadata that you want to use here.
+        let language: String
     }
 
     // Update these properties to configure your website:
     var url = URL(string: "https://ihwan.id")!
     var name = "Tech Blog"
     var description = "blog by Ihwan"
-    var language: Language { .english }
+    var language: Language { .indonesian }
     var imagePath: Path? { nil }
 }
 
 // This will generate your website using the built-in Foundation theme:
-try IhwanId().publish(withTheme: .foundation)
+try IhwanId().publish(withTheme: .default(
+    navigationLinks: [
+      .init(name: "Youtube",
+            url: "https://youtube.com/codewithihwan")],
+    copyright: "Ihwan",
+    twitterURL: "https://twitter.com/ihwan_id",
+    githubURL: "https://github.com/ihwanid"
+  ), plugins: [
+    .splash(withClassPrefix: "")
+  ])

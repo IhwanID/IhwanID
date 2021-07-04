@@ -2,36 +2,41 @@
 date: 2021-07-04 18:11
 description: Refactor blog mulu, nulisnya kapan?.
 tags: publish, swift
+language: id
 ---
 # Refactoring My Blog (again)
 
-Mungkin takdirnya developer tingkat kecamatan itu hanya mengubah-ubah template blog nya dan (hampir) tidak pernah meng-update tulisan di Blog nya. kalau dihitung hitung sudah berapa kali ya gonta ganti tech buat blogging, dari awal pake blogger, wordpress, lalu pakai CMS buatan sendiri (ini absurd sih) dan akhirnya kenal dengan Static Site Generator, barulah berganti ganti di area ini, pakai jekyll, hugo, gatsby, next js (ga tahu ssg apa bukan) dan terakhir ini paka Swift Publish. 
+Mungkin takdirnya developer tingkat kecamatan itu hanya mengubah-ubah template blog nya dan (hampir) tidak pernah meng-update tulisan di Blog nya. kalau dihitung-hitung sudah berapa kali ya gonta-ganti tech buat blogging, dari awal pake blogger, wordpress, lalu pakai CMS buatan sendiri (ini absurd sih) dan akhirnya kenal dengan Static Site Generator, barulah berganti ganti di area ini, pakai jekyll, hugo, gatsby, next js (ga tahu ssg apa bukan) dan terakhir ini paka [Swift Publish](https://github.com/JohnSundell/Publish). 
 
 ## Apa itu Static Site Generator?
 
-Dikutip dari [Sekolah Koding](https://sekolahkoding.com/artikel/apa-itu-static-site-generator), Static Site Generator adalah tool yang akan membantu kita mengubah website yang dibangun menjadi file file statis HTML, CSS dan Javascript untuk dikonsumsi oleh penggunanya nanti. Intinya hasil dari teknologi ini adalah web statik seperti teman teman ngoding html, css, js tanpa menggunakan technology Backend. tapi kebayang kan kalau mau bikin static web tanpa tools seperti ini, bakalan capek nulis konten nya di dalam tag html hehe. 
-nah untuk lebih lengkapnya mengenai Static Site Generator silahkan baca  [disini](https://sekolahkoding.com/artikel/apa-itu-static-site-generator)
+Dikutip dari [Sekolah Koding](https://sekolahkoding.com/artikel/apa-itu-static-site-generator), Static Site Generator adalah tool yang akan membantu kita mengubah website yang dibangun menjadi file file statis HTML, CSS dan Javascript untuk dikonsumsi oleh penggunanya nanti.
 
-## Terus gimana caranya web ini dibangun?
+Intinya hasil dari teknologi ini adalah web statik seperti teman teman ngoding html, css, js tanpa menggunakan technology Backend. tapi kebayang kan kalau mau bikin static web tanpa tools seperti ini, bakalan capek nulis konten nya di dalam tag html hehe. 
+nah untuk lebih lengkapnya mengenai Static Site Generator silahkan baca [disini](https://sekolahkoding.com/artikel/apa-itu-static-site-generator)
+
+## Terus gimana caranya Blog ini dibangun?
 
 Okey okey sabar, disini aku pakai Swift Publish buatan dari Joh Sundell. gampang banget cara buatnya. begini nih
 
 pertama clone dulu repository nya
 
-```console
+```swift
 git clone https://github.com/JohnSundell/Publish.git
 ```
-nah habis itu kita bisa install Publish CLI nya, gampang banget tinggal pake command dibawah ini
-```
+nah habis itu kita bisa install Publish CLI nya, gampang banget tinggal pake command dibawah ini:
+
+```swift
 cd Publish
 make
 ```
-nah sampe sini kita sudah berhasil install Publish CLI nya. setelah ini kita akan bikin web nya ya. 
+
+ Sampai sini kita sudah berhasil install Publish CLI nya. setelah ini kita akan bikin web nya ya. 
 Pertama bikin directory / folder baru. pasti udah tahu kan caranya, tidak mungkin dong ga tahu. 
 kalau belum bisa pake cara dibawah ini, ini lewat terminal, bisa juga lewat GUI. biasanya pake klik kanan
 (oiya, btw pastiin temen temen punya XCode ya hehe)
 
-```console
+```swift
 mkdir My-Blog
 cd My-Blog
 publish new
@@ -45,10 +50,12 @@ Setelah selesai running biasanya akan muncul Folder `Output` nah folder inilah y
 
 ## Cara preview di browser gimana?
 
-Pertanyaan Bagus, Kita bisa menjalankan web di local server dengan perintah
-```console
+Pertanyaan Bagus, Kita bisa menjalankan web di local server dengan perintah:
+
+```swift
 Publish run
 ```
+
 biasanya secara default akan menggunakan port 8000, jadi teman teman bisa akses di browser dengan url `localhost:8000`
 
 ## Biar bisa pamerin web nya ke temen gimana tuh?
@@ -56,13 +63,15 @@ biasanya secara default akan menggunakan port 8000, jadi teman teman bisa akses 
 oiya, kan ga mungkin kita share ke temen pake url  `localhost:8000` xixixi, nah disini kita bisa pake service dari netlify. tapi sebelumnya kita perlu mendeploy web kita ke repository kayak `Github` atau `Gitlab`, bitbucket juga bisa sih. intinya bikin dulu repository, biar bisa dapet URL Remote nya.
 
 Secara Umum Caranya mudah. masih di directory yang sama mari kita ketikan di terminal:
-```console
+
+```swift
 open .gitignore
 ```
+
 Setelah muncul, silahkan tambahkan `Output` dibaris paling bawah, ini supaya folder generated bernama Output tidak perlu kita deploy ke repository, buat apa juga. 
 And then:
 
-```console
+```swift
 git init
 git add .
 git commit -m "initial commit"
