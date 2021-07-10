@@ -1,7 +1,7 @@
 ---
 date: 2021-07-04 18:11
 description: Refactor blog mulu, nulisnya kapan?.
-tags: publish, swift
+tags: blogging
 language: id
 ---
 # Refactoring My Blog (again)

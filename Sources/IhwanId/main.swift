@@ -24,13 +24,17 @@ struct IhwanId: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
+//try IhwanId().publish(withTheme: .foundation)
+
+
 try IhwanId().publish(withTheme: .default(
     navigationLinks: [
       .init(name: "Youtube",
-            url: "https://youtube.com/codewithihwan")],
+            url: "https://youtube.com/codewithihwan"), .init(name: "Medium", url: "https://ihwanid.medium.com")],
     copyright: "Ihwan",
     twitterURL: "https://twitter.com/ihwan_id",
     githubURL: "https://github.com/ihwanid"
   ), plugins: [
     .splash(withClassPrefix: "")
   ])
+
