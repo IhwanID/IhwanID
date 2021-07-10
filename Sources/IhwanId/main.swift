@@ -24,7 +24,9 @@ struct IhwanId: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
-//try IhwanId().publish(withTheme: .foundation)
+//try IhwanId().publish(withTheme: .default(copyright: ""), plugins: [
+//    .splash(withClassPrefix: "")
+//])
 
 
 try IhwanId().publish(withTheme: .default(
