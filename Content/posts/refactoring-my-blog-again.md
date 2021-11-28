@@ -24,6 +24,7 @@ pertama clone dulu repository nya
 ```swift
 git clone https://github.com/JohnSundell/Publish.git
 ```
+
 nah habis itu kita bisa install Publish CLI nya, gampang banget tinggal pake command dibawah ini:
 
 ```swift
@@ -64,7 +65,7 @@ oiya, kan ga mungkin kita share ke temen pake url  `localhost:8000` xixixi, nah 
 
 Secara Umum Caranya mudah. masih di directory yang sama mari kita ketikan di terminal:
 
-```swift
+```
 open .gitignore
 ```
 

@@ -29,14 +29,28 @@ struct IhwanId: Website {
 //])
 
 
-try IhwanId().publish(withTheme: .default(
-    navigationLinks: [
-      .init(name: "Youtube",
-            url: "https://youtube.com/codewithihwan"), .init(name: "Medium", url: "https://ihwanid.medium.com")],
-    copyright: "Ihwan",
-    twitterURL: "https://twitter.com/ihwan_id",
-    githubURL: "https://github.com/ihwanid"
-  ), plugins: [
-    .splash(withClassPrefix: "")
-  ])
+//try IhwanId().publish(withTheme: .default(
+//    navigationLinks: [
+//      .init(name: "Youtube",
+//            url: "https://youtube.com/codewithihwan"), .init(name: "Medium", url: "https://ihwanid.medium.com")],
+//    copyright: "Ihwan",
+//    twitterURL: "https://twitter.com/ihwan_id",
+//    githubURL: "https://github.com/ihwanid"
+//  ), plugins: [
+//    .splash(withClassPrefix: "")
+//  ])
 
+try IhwanId().publish(using: [
+  .copyResources(),
+  .installPlugin(.splash(withClassPrefix: "")),
+  .addMarkdownFiles(),
+  .sortItems(by: \.date, order: .descending),
+  .generateHTML(withTheme: .basic),
+  .unwrap(RSSFeedConfiguration.default) { config in
+      .generateRSSFeed(
+        including: [.posts],
+          config: config
+      )
+  },
+  .generateSiteMap()
+])
