@@ -11,13 +11,12 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(name: "Publish", url: "https://github.com/johnsundell/publish.git", from: "0.8.0"),
-        .package(name: "SplashPublishPlugin", url: "https://github.com/johnsundell/splashpublishplugin", from: "0.1.0")
+        .package(name: "Publish", url: "https://github.com/johnsundell/publish.git", from: "0.7.0")
     ],
     targets: [
         .target(
             name: "IhwanId",
-            dependencies: ["Publish",  "SplashPublishPlugin"]
+            dependencies: ["Publish"]
         )
     ]
 )
