@@ -15,9 +15,9 @@ struct IhwanId: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://your-website-url.com")!
-    var name = "IhwanId"
-    var description = "A description of IhwanId"
+    var url = URL(string: "https://ihwan.id")!
+    var name = "Ihwan ID"
+    var description = "iOS Engineer who write blog in Swift & Markdown"
     var language: Language { .english }
     var imagePath: Path? { nil }
 }
