@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="apple.bipbop" tvg-name="Apple Bip Bop" group-title="Demo; Apple HLS",Apple Bip Bop
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+#EXTINF:-1 tvg-id="apple.bipbop.advanced" tvg-name="Apple Bip Bop Advanced" group-title="Demo; Apple HLS",Apple Bip Bop Advanced
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8
+#EXTINF:-1 tvg-id="apple.tv.advanced" tvg-name="Apple TV Advanced Stream" group-title="Demo; Apple HLS",Apple TV Advanced Stream
+https://devstreaming-cdn.apple.com/videos/streaming/examples/adv_dv_atmos/main.m3u8
